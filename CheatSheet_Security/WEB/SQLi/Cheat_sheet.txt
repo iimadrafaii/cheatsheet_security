@@ -4,3 +4,6 @@ XML :
 
 ORACLE : 
 	There is a built-in table on Oracle called dual
+
+Check length : 
+	LENGTH('imad')=4
