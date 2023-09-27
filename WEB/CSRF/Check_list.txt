@@ -1,0 +1,20 @@
+Bypassing CSRF token validation :
+
+	1 - CSRF vulnerability with no defenses
+
+	2 - CSRF where token validation depends on request method
+
+	3 - CSRF where token validation depends on token being present
+
+	4 - CSRF where token is not tied to user session ( a valid csrf token for a user works for all users )
+
+	5 - CSRF where token is tied to non-session cookie ( case of two frameworks : one for session management and one for csrf token ) 
+
+	6 - CSRF token is simply duplicated in a cookie
+
+
+Bypassing SameSite cookie restrictions :
+
+	1 - Bypassing SameSite Lax restrictions using GET requests
+
+	2 - 
