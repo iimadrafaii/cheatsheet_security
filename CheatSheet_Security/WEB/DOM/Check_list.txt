@@ -1,0 +1,4 @@
+DOM-based Open redirection
+
+DOM-based cookie manipulation
+
