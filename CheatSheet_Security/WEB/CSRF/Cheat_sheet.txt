@@ -1,16 +1,2 @@
-Site VS Origin :
-	Site = protocol + site.com
-	Origin = protocol://subdomain.site.com:443
-
-SameSite restriction levels: Strict - Lax - None
-	==> Set-Cookie: session=XXXXXX; SameSite=Strict
-
-Strict : If a cookie is set with the SameSite=Strict attribute, browsers will not send it in any cross-site requests. In simple terms, this means that if the target site for the request does not match the site currently shown in the browser's address bar, it will not include the cookie.
-
-Lax : SameSite restrictions mean that browsers will send the cookie in cross-site requests, but only if both of the following conditions are met:
-	The request uses the GET method.
-	The request resulted from a top-level navigation by the user, such as clicking on a link.
-
-
 %0d%0a (equivalent to \r\n or the inverse ): insert new line ( url encoded ) 
 	==> for example in http headers ...
