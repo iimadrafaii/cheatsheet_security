@@ -1,9 +1,3 @@
 XML : 
 	# Obfuscate XML :
 	<@hex_entities> SQL ... </@hex_entities>
-
-ORACLE : 
-	There is a built-in table on Oracle called dual
-
-Check length : 
-	LENGTH('imad')=4
