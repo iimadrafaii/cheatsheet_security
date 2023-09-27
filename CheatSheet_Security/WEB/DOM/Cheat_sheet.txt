@@ -1,1 +1,4 @@
+Taint-flow vulnerabilities.
+      Source (controlled by attacker) used with a Sink ( a potentially dangerous JavaScript function or DOM object that can cause undesirable effects if attacker-controlled data is passed to it ).
+
 
