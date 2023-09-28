@@ -2,3 +2,7 @@ DOM-based Open redirection
 
 DOM-based cookie manipulation
 
+DOM-based JavaScript injection
+
+DOM-based document-domain ( manipulation of document.domain )
+
