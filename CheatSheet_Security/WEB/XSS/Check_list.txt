@@ -6,3 +6,7 @@ DOM-based XSS :
     Testing HTML sinks
     Testing JavaScript execution sinks
 
+Cross-site scripting contexts :
+    XSS between HTML tags
+    XSS in HTML tag attributes
+    XSS into JavaScript
