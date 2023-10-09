@@ -16,4 +16,4 @@ Cross-site scripting contexts :
             '-alert(document.domain)-'
             ';alert(document.domain)//
         JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped :
-            \\';alert(document.domain)//
+            \';alert(document.domain)//
