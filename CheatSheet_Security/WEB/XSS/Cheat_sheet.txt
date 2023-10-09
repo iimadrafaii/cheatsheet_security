@@ -8,6 +8,9 @@
 XSS in HTML tag attributes :
     " autofocus onfocus=alert(document.domain) x="
 
+Reflected XSS in canonical link tag :
+    
+
 
 Custom HTML tag :
     TO EMBED : 
