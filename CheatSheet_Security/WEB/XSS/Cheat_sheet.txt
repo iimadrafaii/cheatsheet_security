@@ -23,3 +23,5 @@ Custom HTML tag :
 Angular : ( ng-app directive )
     {{$on.constructor('alert(1)')()}}
     "ng-click="$event.view.alert(1)"
+
+Reprendre les titres des contexts des XSS
