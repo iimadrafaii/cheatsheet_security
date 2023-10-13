@@ -1,1 +1,2 @@
-
+ADd the header in the request : 
+    Origin: https://example.com
