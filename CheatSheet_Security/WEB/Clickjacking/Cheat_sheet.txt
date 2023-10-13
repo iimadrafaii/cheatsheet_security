@@ -14,4 +14,4 @@
     }
 </style>
 <div>Click me</div>
-<iframe src="XXXX"></iframe>
+<iframe src="XXXX" sandbox="allow-forms"></iframe>
