@@ -1,1 +1,7 @@
- the response contains the Access-Control-Allow-Credentials
+The response contains the Access-Control-Allow-Credentials
+
+Add the header in the request : 
+    Origin: https://example.com
+
+Change the origin to an arbitrary value
+
