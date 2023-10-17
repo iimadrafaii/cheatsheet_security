@@ -4,6 +4,11 @@ Add the header in the request :
     Origin: https://example.com
 
 Change the origin to an arbitrary value
+Change the origin to the null value
+Change the origin to one that begins with the origin of the site
+Change the origin to one that ends with the origin of the siv  te
+
+
 
 Black Box :
     Does it reflect the user-supplied ACAO header ?
