@@ -10,3 +10,5 @@
     };
 </script>
 
+Same-Origin Policy (SOP): Control access between web applications.
+
