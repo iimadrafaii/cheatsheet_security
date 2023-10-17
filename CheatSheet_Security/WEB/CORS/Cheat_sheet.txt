@@ -12,3 +12,4 @@
 
 Same-Origin Policy (SOP): Control access between web applications.
 
+Origin = Scheme(protocol) + Hostname(domain) + Port
