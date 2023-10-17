@@ -5,3 +5,11 @@ Add the header in the request :
 
 Change the origin to an arbitrary value
 
+Black Box :
+    Does it reflect the user-supplied ACAO header ?
+    Does it only validate on the start/end of a specific string ?
+    Does it restrict the protocol ?
+    Does it allow null origin ?
+    Does it allow credentials ?
+
+
