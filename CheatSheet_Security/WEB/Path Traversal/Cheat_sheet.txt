@@ -1,1 +1,9 @@
 
+../../../etc/passwd
+
+File path traversal, traversal sequences blocked with absolute path bypass :
+    /etc/passwd
+
+File path traversal, traversal sequences stripped non-recursively :
+    ....//
+    ....\/
