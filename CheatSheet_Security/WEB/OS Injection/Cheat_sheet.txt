@@ -1,0 +1,8 @@
+Concatenate : 
+    |
+    ||
+    &
+    &&
+
+Detecting blind OS command injection using time delays:
+    & ping -c 10 127.0.0.1 &
