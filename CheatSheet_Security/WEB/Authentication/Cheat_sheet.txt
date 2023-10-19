@@ -1,3 +1,3 @@
-XML : 
-	# Obfuscate XML :
-	<@hex_entities> SQL ... </@hex_entities>
+X-Forwarded-For :
+	to spoof IP for IP-based brute-force protection. 
+
