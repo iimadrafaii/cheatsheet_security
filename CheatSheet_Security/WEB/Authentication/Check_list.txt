@@ -1,0 +1,9 @@
+Brute-forcing usernames:
+    Status codes
+    Error messages
+    Response times
+
+
+Brute-forcing passwords
+
+Flawed brute-force protection
