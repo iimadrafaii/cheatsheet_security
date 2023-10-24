@@ -8,3 +8,7 @@ Common sources of information disclosure :
     Backup files
     Insecure configuration
     Version control history
+
+
+/robots.txt
+/sitemap.xml
