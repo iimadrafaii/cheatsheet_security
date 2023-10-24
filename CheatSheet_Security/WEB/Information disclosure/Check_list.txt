@@ -6,7 +6,7 @@ Common sources of information disclosure :
     Debugging data
     User account pages
     Backup files
-    Insecure configuration
+    Insecure configuration ( TRACE HTTP Method )
     Version control history ( /.git )
 
 
