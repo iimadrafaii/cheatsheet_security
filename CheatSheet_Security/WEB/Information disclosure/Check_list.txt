@@ -7,7 +7,7 @@ Common sources of information disclosure :
     User account pages
     Backup files
     Insecure configuration
-    Version control history
+    Version control history ( /.git )
 
 
 /robots.txt
