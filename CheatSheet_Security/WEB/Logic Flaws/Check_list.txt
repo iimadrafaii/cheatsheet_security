@@ -3,11 +3,18 @@ Examples of logic flaws include:
     Excessive trust in client-side controls
 
     Failing to handle unconventional input :
-            Are there any limits that are imposed on the data?
-            What happens when you reach those limits?
-            Is any transformation or normalization being performed on your input?
+        Are there any limits that are imposed on the data?
+        What happens when you reach those limits?
+        Is any transformation or normalization being performed on your input?
 
-    Making flawed assumptions about user behavior
+    Making flawed assumptions about user behavior:
+        Users won't always supply mandatory input : 
+            When probing for logic flaws, you should try removing each parameter in turn and observing what effect this has on the response. 
+            You should make sure to:
+            Only remove one parameter at a time to ensure all relevant code paths are reached.
+            Try deleting the name of the parameter as well as the value. The server will typically handle both cases differently.
+            Follow multi-stage processes through to completion. 
+            Sometimes tampering with a parameter in one step will have an effect on another step further along in the workflow.
 
     Domain-specific flaws
 
