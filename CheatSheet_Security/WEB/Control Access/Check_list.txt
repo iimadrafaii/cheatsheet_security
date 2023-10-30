@@ -1,0 +1,12 @@
+URL-based access control can be circumvented :
+    X-Original-URL 
+    X-Rewrite-URL
+
+Method-based access control can be circumvented :
+    Change HTTP Method 
+
+Spring framework : 
+  If useSuffixPatternMatch option is enabled. 
+  This allows paths with an arbitrary file extension to be mapped to an equivalent endpoint with no file extension. 
+  In other words, a request to /admin/deleteUser.anything would still match the /admin/deleteUser pattern. 
+  Prior to Spring 5.3, this option is enabled by default.
