@@ -10,3 +10,6 @@ Spring framework :
   This allows paths with an arbitrary file extension to be mapped to an equivalent endpoint with no file extension. 
   In other words, a request to /admin/deleteUser.anything would still match the /admin/deleteUser pattern. 
   Prior to Spring 5.3, this option is enabled by default.
+
+Referer-based access control:
+    Referrer Header
