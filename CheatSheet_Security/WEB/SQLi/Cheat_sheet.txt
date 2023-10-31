@@ -1,3 +1,6 @@
 XML : 
 	# Obfuscate XML :
 	<@hex_entities> SQL ... </@hex_entities>
+
+Obfuscation via hex escaping :
+	0x53454c454354 may be decoded to form the SELECT keyword.
