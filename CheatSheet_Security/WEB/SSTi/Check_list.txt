@@ -1,3 +1,7 @@
 insert unknown variable : 
     {unknownvariable}
 
+https://portswigger.net/web-security/images/template-decision-tree.png
+
+Insert a fuzz string containing template syntax from various different template languages :
+    ${{<%[%'"}}%\
