@@ -5,3 +5,8 @@ https://portswigger.net/web-security/images/template-decision-tree.png
 
 Insert a fuzz string containing template syntax from various different template languages :
     ${{<%[%'"}}%\
+
+Explore : 
+    ${T(java.lang.System).getenv()}
+
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md
