@@ -4,3 +4,5 @@ XML :
 
 Obfuscation via hex escaping :
 	0x53454c454354 may be decoded to form the SELECT keyword.
+
+CHAR(83)+CHAR(69)+CHAR(76)+CHAR(69)+CHAR(67)+CHAR(84) ==> SELECT
