@@ -1,0 +1,2 @@
+Serialization = Object ==> Stream of Bytes
+Deserialization = Stream of Bytes ==> Object
