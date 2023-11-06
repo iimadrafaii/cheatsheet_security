@@ -1,2 +1,4 @@
 If you have source code access, you should start by looking for unserialize() anywhere in the code and investigating further.
 
+Any class that implements the interface java.io.Serializable can be serialized and deserialized. If you have source code access, take note of any code that uses the readObject() method, which is used to read and deserialize data from an InputStream.
+
