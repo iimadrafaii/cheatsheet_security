@@ -1,0 +1,2 @@
+If you have source code access, you should start by looking for unserialize() anywhere in the code and investigating further.
+
