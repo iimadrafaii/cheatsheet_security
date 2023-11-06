@@ -1,2 +1,4 @@
 Serialization = Object ==> Stream of Bytes
 Deserialization = Stream of Bytes ==> Object
+
+Serialization may be referred to as marshalling (Ruby) or pickling (Python)
