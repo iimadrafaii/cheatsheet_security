@@ -1,9 +1,3 @@
-X-Forwarded-For :
-	to spoof IP for IP-based brute-force protection. 
-
-Generate all permutations of upper and lower of a word : 
-	import itertools
-	s = 'word'
-	map(''.join, itertools.product(*zip(s.upper(), s.lower())))
-
-
+XML : 
+	# Obfuscate XML :
+	<@hex_entities> SQL ... </@hex_entities>

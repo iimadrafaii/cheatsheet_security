@@ -1,1 +1,3 @@
-
+XML : 
+	# Obfuscate XML :
+	<@hex_entities> SQL ... </@hex_entities>
