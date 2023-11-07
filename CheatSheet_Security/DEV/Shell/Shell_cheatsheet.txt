@@ -1,0 +1,1 @@
+Delete line breaks : echo 'shi haja' | tr -d "\n\r"
