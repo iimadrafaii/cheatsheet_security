@@ -5,4 +5,5 @@ Serialization may be referred to as marshalling (Ruby) or pickling (Python).
 
 Insecure deserialization is sometimes known as an "object injection" vulnerability.
 
-Java deserialization: ysoserial
+Java deserialization : ysoserial
+PHP deserialization  : phpggc
