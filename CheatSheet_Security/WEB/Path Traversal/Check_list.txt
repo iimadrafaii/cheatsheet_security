@@ -15,3 +15,7 @@ Obfuscation :
       exploit.asp;.jpg
       exploit.asp%00.jpg
       exploit.p.phphp
+
+Polyglot web shell upload :
+      ( Change file metadata to overwrite file type )
+      Exiftool 
