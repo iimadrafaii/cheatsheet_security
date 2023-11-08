@@ -1,0 +1,4 @@
+Accepting arbitrary signatures
+
+Accepting tokens with no signature
+
