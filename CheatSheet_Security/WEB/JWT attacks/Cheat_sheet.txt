@@ -1,3 +1,5 @@
 https://jwt.io/
 
+https://gchq.github.io/CyberChef/
+
 hashcat -a 0 -m 16500 <jwt> <wordlist>
