@@ -3,5 +3,7 @@ Accepting arbitrary signatures
 Accepting tokens with no signature : 
       Change the value of the alg parameter to none
 
-Brute-forcing secret keys :
+Brute-forcing secret keys : hashcat ( see cheat_sheet )
+
+JWT authentication bypass via jwk header injection
       
