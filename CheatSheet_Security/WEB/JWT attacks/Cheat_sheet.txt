@@ -5,3 +5,5 @@ https://gchq.github.io/CyberChef/
 https://github.com/ticarpi/jwt_tool/wiki/Using-jwt_tool
 
 hashcat -a 0 -m 16500 <jwt> <wordlist>
+
+john jwt.txt --wordlist=wordlists.txt --format=HMAC-SHA256
