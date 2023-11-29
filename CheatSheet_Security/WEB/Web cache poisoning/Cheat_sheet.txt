@@ -1,0 +1,1 @@
+Cache keys = would contain the request line and Host header.
