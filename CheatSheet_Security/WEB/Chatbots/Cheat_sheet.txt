@@ -1,1 +1,2 @@
 Prompt injection: a vulnerability that affects insecure chatbots powered by natural language processing (NLP).
+Prompt injection is similar to social engineering – only the target here is the unsuspecting chatbot, not a human.cr
