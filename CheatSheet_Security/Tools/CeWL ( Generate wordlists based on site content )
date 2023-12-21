@@ -1,2 +1,4 @@
 cewl -d 2 -m 5 -w passwords.txt http://10.10.203.183 --with-numbers
     [depth min      output                               include numbers in words ]
+
+cewl -d 0 -m 5 -w usernames.txt http://10.10.203.183/team.php --lowercase
