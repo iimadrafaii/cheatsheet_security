@@ -1,0 +1,2 @@
+cewl -d 2 -m 5 -w passwords.txt http://10.10.203.183 --with-numbers
+    [depth min      output                               include numbers in words ]
