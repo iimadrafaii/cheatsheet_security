@@ -5,3 +5,6 @@ cache-buster query parameter, such as ?cb=1234.
 Vary header : Specifies a list of additional headers that should be treated as part of the cache key even if they are normally unkeyed.
 
 Pragma: x-get-cache-key  ( a header that reflects the cached key )
+
+Common Cache busters : 
+    Header : Origin:
