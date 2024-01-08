@@ -8,3 +8,5 @@ Pragma: x-get-cache-key  ( a header that reflects the cached key )
 
 Common Cache busters : 
     Header : Origin:
+
+UTM Parameters - that starts with utm. There are 5 standard parameters you can track: utm_source, utm_medium, utm_campaign, utm_content, and utm_term (more on these below).
