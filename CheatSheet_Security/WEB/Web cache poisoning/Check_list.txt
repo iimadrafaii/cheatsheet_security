@@ -6,3 +6,8 @@
 
 3) Get the response cached
 
+Exploiting parameter parsing quirks:
+     GET /?keyed_param=abc&excluded_param=123;keyed_param=bad-stuff-here
+     GET /?example=123?excluded_param=bad-stuff-here
+
+
