@@ -1,0 +1,6 @@
+POST / HTTP/1.1
+Host: XXXXXXX.web-security-academy.net
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 6
+Transfer-Encoding: chunked
