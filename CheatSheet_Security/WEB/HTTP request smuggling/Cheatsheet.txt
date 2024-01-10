@@ -4,3 +4,10 @@ Connection: keep-alive
 Content-Type: application/x-www-form-urlencoded
 Content-Length: 6
 Transfer-Encoding: chunked
+
+GPOST / HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 15
+
+x=1
+0
