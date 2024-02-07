@@ -1,2 +1,19 @@
-
 Supply an arbitrary Host header
+
+Check for flawed validation:
+    ADD Bad alpha/num PORT in the Host Header : vulnerable-website.com:BAD-STUFF
+    Specify a vulnerable(hacked) sub domain: hacked-subdomain.vulnerable-website.com
+    Create new domain that contains the value of the old one : notvulnerable-website.com
+
+Send ambiguous requests:
+    Inject duplicate Host headers
+    Supply an absolute URL : GET https://vulnerable-website.com/ HTTP/1.1
+    Add line wrapping : indent one of the 'Host' headers in the request ( it may be ignored by one server and not the other )
+    
+
+Inject host override headers:
+    X-Forwarded-Host
+    X-Host
+    X-Forwarded-Server
+    X-HTTP-Host-Override
+    Forwarded
