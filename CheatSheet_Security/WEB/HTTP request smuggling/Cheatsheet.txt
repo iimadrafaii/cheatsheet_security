@@ -26,6 +26,10 @@ CL.TE :
     X-Ignore: X
 
 
+CL.0 :
+    The backend server is ignoring the Content-Length header for a Post request with a connection-->keep-alive [1st request]
+    ( send two requests in sequence in a single connection )
+
 Obfuscate the Transfer-Encoding header :
     Transfer-Encoding: xchunked
     
