@@ -1,0 +1,2 @@
+dnSpy : (open-source .NET assembly (C#) debugger and editor) decompiles malware sample written in C#
+
