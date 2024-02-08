@@ -1,9 +1,12 @@
-Less : Read page per page
+less : Read page per page
     Page Up     ==> ( b )
     Page Down   ==> ( space )
     Exit        ==> ( q )
 
-Head : Read the first lines of the file :
+head : Read the first lines of the file
+    -n ==> nb of lines to show
+
+tail : Read the last lines of the file
     -n ==> nb of lines to show
 
 wc : prints the count of lines, words, and characters 
@@ -18,3 +21,15 @@ cut : split the lines of a file
     -d : delimeter
     -fA,B,C : return the columns with indexes A, B and C  ( starting from 1 ) 
     
+grep : OPTIONS STRING_TO_SEARCH FILE_NAME
+
+sort : sort FILE_STREAM
+    -n : Sorts a file numerically (interprets data as numbers)
+    -r : reverse
+
+uniq : uniq FILE_STREAM
+    (The uniq command requires a sorted list to be effective because it only compares the adjacent lines)
+    -c : print the count of each unique entry    
+
+base64 :
+    -d : decode
