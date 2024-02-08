@@ -1,0 +1,20 @@
+Less : Read page per page
+    Page Up     ==> ( b )
+    Page Down   ==> ( space )
+    Exit        ==> ( q )
+
+Head : Read the first lines of the file :
+    -n ==> nb of lines to show
+
+wc : prints the count of lines, words, and characters 
+    -l : just the number of lines
+    -w : just the number of words
+    -c : just the number of characters
+
+
+nl : renders the contents of the file in a numbered line format
+
+cut : split the lines of a file 
+    -d : delimeter
+    -fA,B,C : return the columns with indexes A, B and C  ( starting from 1 ) 
+    
