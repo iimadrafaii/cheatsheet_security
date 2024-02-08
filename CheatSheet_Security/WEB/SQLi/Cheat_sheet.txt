@@ -1,3 +1,13 @@
 XML : 
 	# Obfuscate XML :
 	<@hex_entities> SQL ... </@hex_entities>
+
+Microsoft SQL Server :
+	Stored procedures : xp_cmdshell ( allow for system commands )
+		==> Attempt to activate it :
+		EXEC sp_configure 'show advanced options', 1;
+		RECONFIGURE;
+		EXEC sp_configure 'xp_cmdshell', 1;
+		RECONFIGURE;
+
+More secure and modern methods like SQL Server Integration Services (SSIS).
