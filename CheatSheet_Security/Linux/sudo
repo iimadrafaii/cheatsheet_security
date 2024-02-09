@@ -1,0 +1,5 @@
+Remove a user from sudeors : 
+    sudo deluser USER sudo
+
+Verify if a user has sudo privileges :
+    sudo -l -U USER
