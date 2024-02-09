@@ -1,0 +1,12 @@
+AD : Digital database containing objects like users, groups, and computers, each with specific attributes and permissions.
+
+Windows Hello for Business (WHfB) : 
+    PUB and PRIVATE keys ( with PIN or biometrics )
+    PUB key stored in the attribute msDS-KeyCredentialLink
+
+    ==> Steps for creating a pair of certificates with WHfB :
+          1) The TPM creates a public-private key pair for the user's account when they enrol
+          2) The client initiates a certificate request to receive a trustworthy certificate. 
+             The organisation's certificate issuing authority (CA) receives this request and provides a valid certificate.
+          3) The user account's msDS-KeyCredentialLink attribute will be set.
+
