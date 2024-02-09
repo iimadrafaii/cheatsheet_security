@@ -1,0 +1,2 @@
+sudo -l ==> (ALL : ALL) ALL   ==>  sudo su (to become root !)
+
