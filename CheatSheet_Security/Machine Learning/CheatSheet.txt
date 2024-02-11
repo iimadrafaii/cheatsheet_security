@@ -3,7 +3,6 @@ Examples of ML :
     Particle swarm
     Neural networks
 
-
 # Neural networks :
 
 ## Learning Styles :
@@ -50,6 +49,14 @@ Python code to create neural netwwork :
 GIGO : garbage in, garbage out. This term is meant to illustrate that AI isn't this magical thing that can fix every single problem. 
 An ML structure is only as good as the quality of the data used to train it. Without good data, we wouldn't be able to receive any accurate output.
 
+# Machine Learning Pipeline :
+    Data Collection
+    Data Preprocessing
+    Train/Test Split dataset
+    Model Training
+    Model Evaluation
+    Testing the Model
+    
 
 
 
