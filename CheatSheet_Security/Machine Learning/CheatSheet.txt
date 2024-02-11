@@ -58,7 +58,10 @@ An ML structure is only as good as the quality of the data used to train it. Wit
     Testing the Model
     
 
-
+CNN  ( Convolutional Neural Networks ) :
+    Two steps : 
+        Convolution : Summarise the image (the input) ( mathematically ==> kernel matrix )
+        Pooling : Summarise the image (the input) statistically ( take the max for ex of every 2x2 )
 
 
 
