@@ -4,19 +4,51 @@ Examples of ML :
     Neural networks
 
 
-Neural networks :
-    Learning Styles :
-        Supervised learning :
-            We ask for answer and provide feedback for the correct answer ( so it improves itself ).
-            We need labelled dataset : we have a label for what the correct answer should be, given 
-            the input.
-        Unsupervised learning :
-            Often used to allow neural networks to learn interesting features that humans can't 
-            comprehend that can be used for classification
-    Layers : 
+# Neural networks :
+
+## Learning Styles :
+### Supervised learning :
+        We ask for answer and provide feedback for the correct answer ( so it improves itself ).
+        We need labelled dataset : we have a label for what the correct answer should be, given 
+        the input.
+### Unsupervised learning :
+        Often used to allow neural networks to learn interesting features that humans can't 
+        comprehend that can be used for classification
+
+## Layers : 
         Input layer.
         Hidden layer.
         Output layer.
-    How it works : 
-        Inputs are multiplied by a weight value first. The output is entered into an activation function. (this decides if the neuron (node) will be active or not. It does this by ensuring that the output, no matter the input, will always be a decimal between 0 and 1 (or between −1 and 1).)
 
+## How it works : 
+        Inputs are multiplied by a weight value first. The output is entered into an activation function. 
+        (this decides if the neuron (node) will be active or not. It does this by ensuring that the output, 
+        no matter the input, will always be a decimal between 0 and 1 (or between −1 and 1).)
+
+## Training Neural network :
+### Feed-Forward Loop : ( the only step in a normal use of the neural network ) 
+    Normalise all of the inputs
+    Feed the inputs to our nodes in the input layer
+    Propagate the data through the network
+    Read the output from the network
+
+### Back-Propagation : ( only present in a training )
+    Calculate the difference in received outputs vs expected outputs
+    Update the weights of the nodes
+    Propagate the difference back to the other layers
+
+
+## Dataset Splits :
+    Training data ( 70–80% )
+    Validation data ( 10–15% )
+    Testing data ( 10–15% )
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------
