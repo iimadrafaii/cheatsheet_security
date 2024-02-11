@@ -1,0 +1,19 @@
+Examples of ML :
+    Genetic algorithm
+    Particle swarm
+    Neural networks
+
+
+Neural networks :
+    Learning Styles :
+        Supervised learning :
+            We ask for answer and provide feedback for the correct answer ( so it improves itself ).
+            We need labelled dataset : we have a label for what the correct answer should be, given 
+            the input.
+        Unsupervised learning :
+            Often used to allow neural networks to learn interesting features that humans can't 
+            comprehend that can be used for classification
+    Layers : 
+        Input layer.
+        Hidden layer.
+        Output layer.
