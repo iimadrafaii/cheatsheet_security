@@ -1,0 +1,19 @@
+IoC = indicators of compromise
+IoA = indicators of attack
+
+PCAP = Packet capture ( carries the payload )
+
+Network flow data is a lightweight alternative to PCAPs ( Summary data doesn't contain the packet details and payload ).
+
+Tools : Wireshark - tshark - tcpdump.
+
+SiLK (System for Internet Level Knowledge) : read network flows or convert PCAPs to network flow data.
+
+
+
+
+
+
+
+
+---------------------------------------------------
