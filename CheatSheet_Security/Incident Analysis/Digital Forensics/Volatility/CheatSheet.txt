@@ -1,0 +1,23 @@
+Volatility : command-line tool that analyse a memory dump in order to perform memory analysis.
+
+# Volatility Plugins :
+
+## History File :
+vol.py -f linux.mem --profile="PROFILE" linux_bash
+
+## Running Processes :
+vol.py -f linux.mem --profile="PROFILE" linux_pslist
+
+## Process Extraction : ( examine the binary of a process )
+vol.py -f linux.mem --profile="PROFILE" linux_procdump -D DIR -p PID
+
+## File Extraction :
+### Enumerate files :
+vol.py -f linux.mem --profile="PROFILE" linux_enumerate_files
+### Extracting content :
+vol.py -f linux.mem --profile="LinuxUbuntu_5_4_0-163-generic_profilex64" linux_find_file -i 0xffff9ce9b78280e8 -O extracted/elfie
+==> 0xffff9ce9b78280e8 is the INODE value 
+
+## History File :
+vol.py -f linux.mem --profile="PROFILE" linux_bash
+
