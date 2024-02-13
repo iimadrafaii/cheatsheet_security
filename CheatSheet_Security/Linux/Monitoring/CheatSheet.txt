@@ -1,0 +1,12 @@
+top : show real-time resource use ( pid, cpu, memory ... ) 
+
+Kill a process : sudo kill PID
+
+See scheduled tasks : crontab -l ( each user has their own cronjobs ! )
+      sudo su + crontab -l : to see root cronjobs !
+
+List all services : systemctl list-unit-files
+
+Check service status : systemctl status/start/stop/disable SERVICE
+
+Daemon Reload : systemctl daemon-reload ( It will reload all the service configurations and create the whole service dependency tree again )
