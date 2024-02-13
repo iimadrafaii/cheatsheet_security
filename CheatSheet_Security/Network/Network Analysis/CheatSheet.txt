@@ -9,11 +9,36 @@ Tools : Wireshark - tshark - tcpdump.
 
 SiLK (System for Internet Level Knowledge) : read network flows or convert PCAPs to network flow data.
 
+SiLK Suite :
+    silk_config -v
+    rwfileinfo suspicious-flows.silk
+    rwcut FILENAME --num-recs=5  ( print or filter data flow )
+          --num-recs=5 : specify number of records to show starting from the beginning
+          --tail-rec=5 :     //  starting from the bottom
+          --fields=protocol,sIP,sPort : specify columns to show
+    rwfilter FILENAME --proto=17 --pass=stdout | rwcut --num-recs=5
+          Protocols: --proto (Possible values are 0-255)
+          Port filters (Possbile values are 0-65535):
+              Any port: --aport
+              Source port: --sport
+              Destination port: --dport
+          IP filters: 
+              Any IP address: --any-address
+              Source address: --saddress 
+              Destination address: --daddress
+          Volume filters: 
+              Number of the packets --packets 
+              Number of the bytes --bytes
+      rwstats FILENAME --fields=dPort --values=records,packets,bytes,sIP-Distinct,dIP-Distinct --count=10
+          Top talkers on the network :
+              rwstats FILENAME --fields=sIP --values=bytes --count=10 --top
 
 
 
-
-
-
+Internet protocol numbers:
+    ICMP = 1
+    IPv4 = 4
+    TCP  = 6
+    UDP  = 17
 
 ---------------------------------------------------
