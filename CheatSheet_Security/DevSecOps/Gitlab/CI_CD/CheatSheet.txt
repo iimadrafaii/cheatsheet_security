@@ -1,0 +1,13 @@
+CI/CD : Continuous integration and continuous delivery (deployment).
+
+VCS : Version control system.
+
+SDLC : Software development lifecycles.
+
+SSDLC : Secure software development lifecycles.
+
+PPE : Poisoned pipeline execution
+
+
+Remediate attacks on CI/CD : 
+    Preventing unauthorised repository changes ( change the "Allowed to push" to no one )
