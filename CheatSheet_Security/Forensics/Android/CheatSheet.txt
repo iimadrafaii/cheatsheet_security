@@ -1,0 +1,4 @@
+Create a backup for the android device : adb backup -all -f FILE.ab
+
+Pull a device (a mount) : adb pull DEVICE NAME.img
+
