@@ -9,7 +9,7 @@ SDLC : Software development lifecycles.
 
 SSDLC : Secure software development lifecycles.
 
-PPE : Poisoned pipeline execution
+PPE : Poisoned pipeline execution ( an attacker has direct write access to a repository pipeline )
 
 
 Remediate attacks on CI/CD : 
