@@ -1,0 +1,5 @@
+Types of SSRF Attack :
+    Basic
+    Blind SSRF
+    Semi-blind SSRF
+
