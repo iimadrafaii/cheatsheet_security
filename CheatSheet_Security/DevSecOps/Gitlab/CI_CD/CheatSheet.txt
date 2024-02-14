@@ -1,5 +1,8 @@
 CI/CD : Continuous integration and continuous delivery (deployment).
 
+CI : Development, Build, Testing
+CD : Deploy
+
 VCS : Version control system.
 
 SDLC : Software development lifecycles.
