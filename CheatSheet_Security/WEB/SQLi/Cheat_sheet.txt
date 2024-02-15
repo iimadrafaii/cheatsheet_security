@@ -2,6 +2,7 @@ XML :
 	# Obfuscate XML :
 	<@hex_entities> SQL ... </@hex_entities>
 
+Get All entries in one line : group_concat ( maria_db for example )
 
 Microsoft SQL Server :
 	Stored procedures : xp_cmdshell ( allow for system commands )
@@ -10,6 +11,7 @@ Microsoft SQL Server :
 		RECONFIGURE;
 		EXEC sp_configure 'xp_cmdshell', 1;
 		RECONFIGURE;
+		
 
 
 certutil : ( allow for launching http requests )
