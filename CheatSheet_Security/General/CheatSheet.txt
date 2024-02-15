@@ -2,3 +2,7 @@
     Confidentiality
     Integrity
     Availability
+
+Going one more step beyond the CIA security triad, we can think of:
+    Authenticity
+    Nonrepudiation ( ensures that the original source cannot deny that they are the source of a particular document/file/data ) 
