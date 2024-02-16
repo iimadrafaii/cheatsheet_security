@@ -1,0 +1,62 @@
+Caesar cipher is considered a substitution cipher ( each letter in the alphabet is substituted with another ).
+
+Transposition cipher : Change letters order.
+
+Solve simple substitution ciphers : https://www.quipqiup.com
+
+
+
+
+# Symetric Encryption : 
+## DES (1977)
+Key of 56 bits.
+
+## AES (2001)
+Size of 128, 192, or 256 bits
+AES repeats the following four transformations multiple times : SubBytes - ShiftRows - MixColumns - AddRoundKey
+
+## 3DES 
+Will be deprecated in 2023 and disallowed in 2024.
+
+## Block cipher:
+Converts the input (plaintext) into blocks and encrypts each block (usually block of 128 bits)
+
+## Stream cipher:
+Encrypt the plaintext byte by byte
+
+## Problems with symetric encryption : 
+### Scalability os difficult :
+If one system gets compromised, they need to create new keys to be used with the other users.
+Number of keys required grows fast : n(n-1)/2 for n user ( number of unique peers )
+
+## Programs available for symmetric encryption :
+### GPG : GNU Privacy Guard
+Encrypt : gpg --armor --symmetric --cipher-algo CIPHER message.txt
+Decrypt : gpg --output original_message.txt --decrypt message.gpg
+
+### OpenSSL Project
+Encrypt : openssl aes-256-cbc -e -in message.txt -out encrypted_message
+Decrypt : openssl aes-256-cbc -d -in encrypted_message -out original_message.txt
+
+
+
+
+
+
+# Asymetric Encryption :
+Asymmetric encryption can help establish confidentiality, integrity, authenticity, and nonrepudiation.
+Diffie-Hellman key exchange algorithm allows two parties to agree on a secret over an insecure channel.
+Diffie-Hellman is prone to a Man-in-the-Middle (MitM) attack.
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------
