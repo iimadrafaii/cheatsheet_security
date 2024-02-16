@@ -3,6 +3,65 @@
     Integrity
     Availability
 
+
 Going one more step beyond the CIA security triad, we can think of:
     Authenticity
     Nonrepudiation ( ensures that the original source cannot deny that they are the source of a particular document/file/data ) 
+
+
+DAD Triad: 
+    Disclosure 
+    Alteration
+    Destruction/Denial
+
+
+Foundational security models :
+    Bell-LaPadula Model : can be summarized as “write up, read down.” ( aims to achieve confidentiality )
+    Biba Model : can be summarized as “read up, write down.” ( aims to achieve integrity )
+    Clark-Wilson Model : (aims to achieve integrity)
+    ... and many other models ...
+
+
+ISO : The International Organization for Standardization
+
+ISO/IEC 19249 lists five architectural principles:
+    Domain Separation
+    Layering
+    Encapsulation
+    Redundancy
+    Virtualization
+
+ISO/IEC 19249 teaches five design principles:
+    Least Privilege
+    Attack Surface Minimisation
+    Centralized Parameter Validation
+    Centralized General Security Services
+    Preparing for Error and Exception Handling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
