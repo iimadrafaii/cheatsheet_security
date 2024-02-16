@@ -39,6 +39,11 @@ ISO/IEC 19249 teaches five design principles:
     Preparing for Error and Exception Handling
 
 
+Two security principles that are of interest to us regarding trust : 
+    Trust but Verify
+    Zero Trust
+
+
 
 
 
