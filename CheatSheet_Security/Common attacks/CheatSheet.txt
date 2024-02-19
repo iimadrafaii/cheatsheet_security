@@ -1,0 +1,2 @@
+Replay attack : Although the attacker does not know the password, they can still authenticate by replaying the same response.
+      ==> Making the Challenge Response Unique ( using a timestamp for example in the encrypted message ... ) 
