@@ -44,7 +44,7 @@ Two security principles that are of interest to us regarding trust :
     Zero Trust
 
 
-
+SIEM : Security Information and Event Management. ( aggregates log data from multiple sources and analyses it for signs of security threats )
 
 
 
