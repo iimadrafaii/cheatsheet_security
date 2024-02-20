@@ -90,7 +90,7 @@ International Standards/Frameworks :
 ### MITRE ATT&CK Framework : (Adversarial Tactics, Techniques, and Common Knowledge)
 ### DREAD [Microsoft] : (Damage, Reproducibility, Exploitability, Affected Users, Discoverability)
 ### STRIDE [Microsoft] : (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege)
-
+### PASTA : Process for Attack Simulation and Threat Analysis
 
 
 
