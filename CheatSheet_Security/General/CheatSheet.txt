@@ -47,17 +47,43 @@ Two security principles that are of interest to us regarding trust :
 SIEM : Security Information and Event Management. ( aggregates log data from multiple sources and analyses it for signs of security threats )
 
 
+Governance: Managing and directing an organisation or system to achieve its objectives and ensure compliance with laws, regulations, and standards.
+Regulation: A rule or law enforced by a governing body to ensure compliance and protect against harm.
+Compliance: The state of adhering to laws, regulations, and standards that apply to an organisation or system.
+
+Benefits of implementing governance and regulation :
+   More Robust Security Posture
+			Increased Stakeholder Confidence
+			Regulatory Compliance
+			Better alignment with business objectives
+			Informed decision-making
+			Competitive advantage
 
 
+Relevant Laws and Regulations : 
+   General Data Protection Regulation (GDPR)
+   Health Insurance Portability and Accountability Act (HIPAA)
+   Payment Card Industry Data Security Standard (PCI-DSS)
+   Gramm-Leach-Bliley Act (GLBA)
 
 
+General Data Protection Regulation (GDPR) :
+   Prior approval must be obtained before collecting any personal data.
+   Personal data should be kept to a minimum and only collected when necessary.
+   Adequate measures are to be adopted to protect stored personal data.
 
 
+International Standards/Frameworks : 
+   ISO 27001
+   NIST 800-53
+   NIST Special Publication 800-63B
+   Service Organisation Control 2 (SOC 2)
 
 
-
-
-
+# Threat modelling :
+Threat : Cyber attacks, human error, or natural disasters.
+Vulnerability : A weakness or flaw in a system, application, or process that may be exploited by a threat to cause harm.
+Risk : Likelihood of being compromised because of a threat taking advantage of a vulnerability.
 
 
 
