@@ -1,0 +1,38 @@
+Responses to Risk :
+    Risk avoidance.
+    Risk acceptance.
+    Risk reduction.
+    Risk sharing. ( buying an insurance )
+
+Threat : Potential harm or danger to an individual, organisation, or system.
+    Human-made threats
+    Technical threats
+    Natural threats
+
+Vulnerability : A weakness in the system or software that can be exploited by a threat to cause harm.
+
+Asset : An economic resource owned or controlled by an individual, company, or government.
+
+Risk : The probability of a threat source exploiting an existing vulnerability (in an asset) 
+        and resulting in adverse business effects.
+
+Risk management : 
+    Frame Risk
+    Assess Risk
+    Risk Analysis
+    Respond to Risk
+    Monitor Risk
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------
