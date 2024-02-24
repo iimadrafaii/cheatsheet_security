@@ -1,3 +1,13 @@
 The connection between the switch and router is known as a trunk.
 
 VLANs are configured to communicate with a router through a designated interface of a switch, known as a switch port.
+
+Security, optimization, and redundancy should all be considered when designing a network, ideally without compromising one component.
+
+DMZ : Separates untrusted networks or devices from internal resources.
+
+"Security zones" and access controls will physically direct how and where traffic goes.
+
+ACL : Access Control List
+ACE : Access Control Entry
+
