@@ -1,0 +1,17 @@
+# Physical : 
+Adding a GRUB ( a bootloader ) password.
+GRUB is not available for systems deployed using cloud service providers (as you don’t have access to the physical terminal).
+
+# Filesystem Partitioning and Encryption :
+LUKS (Linux Unified Key Setup).
+Access a file encrypted with LUKS : sudo cryptsetup open --type luks secretvault.img myvault && sudo mount /dev/mapper/myvault myvault/ 
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------
