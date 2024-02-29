@@ -11,3 +11,45 @@ DMZ : Separates untrusted networks or devices from internal resources.
 ACL : Access Control List
 ACE : Access Control Entry
 
+Firewalls : stateless vs stateful
+
+SSL/TLS Inspection : Uses an SSL proxy to intercept protocols, including HTTP, POP3, SMTP, or other SSL/TLS encrypted traffic. Once intercepted, the proxy will decrypt the traffic and send it to be processed by a UTM (Unified Threat Management) platform. UTM solutions will employ deep SSL inspection, feeding the decrypted traffic from the proxy into other UTM services, including but not limited to web filters or IPS (Intrusion Prevention System), to process the information.
+
+Addressing Common Attacks : 
+# DHCP Snooping : ( a security feature that acts like a firewall between untrusted hosts and trusted DHCP servers )
+                  Was introduced to combat rogue DHCP servers; it will validate and rate-limit 
+                  DHCP traffic as necessary. If a host is untrusted, its traffic will be 
+                  filtered and rate-limited.
+
+# Dynamic ARP Inspection : ( a security feature that validates Address Resolution Protocol (ARP) packets in a network )
+                  Let's recap; the DHCP binding database provides the expected MAC and IP address pair of 
+                  untrusted hosts; ARP inspection will compare the source IP address and MAC address to 
+                  the binding pair; if they are mismatched, it will drop the packet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+
