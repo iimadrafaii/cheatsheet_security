@@ -1,0 +1,2 @@
+the name of the sudoers group on Debian and Ubuntu systems : sudo.
+
