@@ -27,6 +27,55 @@ Disable shells for local services : Set the shell to sbin/nologin for all the lo
                                     service accounts such as www-data, mongo, and nginx, 
                                     to name a few.
 
+# Software and Services :
+Disable Unnecessary Services
+Block Unneeded Network Ports ( set firewall rules )
+Avoid Legacy Protocols
+Remove Identification Strings : 
+            Whenever you connect to a remote server, it usually replies with 
+            its version number. This information would reveal various information 
+            to the attacker, such as the name of the server/program, the version 
+            number, and the host operating system.
+Update and Upgrade Policies :
+            Select distributions that will continue to receive updates smoothly for many years.
+            apt update
+            apt upgrade
+            Kernel Updates ( 2016 Dirty COW attack )
+
+Audit and Log Configuration : ( /var/log )
+            tail -n 12 boot.log
+            grep FAILED boot.log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
