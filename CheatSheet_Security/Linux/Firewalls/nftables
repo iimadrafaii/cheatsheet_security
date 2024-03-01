@@ -1,0 +1,9 @@
+Create table : nft add table TABLE
+
+Create chains : 
+      nft add chain TABLE INPUT_CHAIN { type filter hook input priority 0 \; }
+      nft add chain TABLE OUTPUT_CHAIN { type filter hook output priority 0 \; }
+
+Add rules : 
+      nft add TABLE INPUT_CHAIN tcp dport 22 accept
+      nft add TABLE OUTPUT_CHAIN tcp sport 22 accept
