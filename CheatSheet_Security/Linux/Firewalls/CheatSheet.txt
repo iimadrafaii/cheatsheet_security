@@ -1,0 +1,20 @@
+Host-based firewall : Restricts network packets to and from a single host.
+VS Network-based firewall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------
