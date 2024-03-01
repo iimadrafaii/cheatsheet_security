@@ -6,6 +6,27 @@ GRUB is not available for systems deployed using cloud service providers (as you
 LUKS (Linux Unified Key Setup).
 Access a file encrypted with LUKS : sudo cryptsetup open --type luks secretvault.img myvault && sudo mount /dev/mapper/myvault myvault/ 
 
+# Configuring Firewall ( ufw )
+
+# Remote Access :
+Protecting Against Password Sniffing : 
+      Using ssh instead of telnet.
+Protecting Against Password Guessing :
+      Disable remote login as root; force login as non-root users.
+      Disable password authentication; force public key authentication instead :
+            PubkeyAuthentication yes to enable public key authentication
+            PasswordAuthentication no to disable password authentication
+
+# Securing user accounts : 
+Use sudo : have an account created for administrative purposes added to the sudoers.
+Disable root : A straightforward way is to modify the /etc/passwd and change the root shell to /sbin/nologin.
+Enforce a Strong Password Policy : The libpwquality library.
+Disable Unused Accounts : 
+      Change shell for the user in /etc/passwd to /sbin/nologin 
+Disable shells for local services : Set the shell to sbin/nologin for all the local 
+                                    service accounts such as www-data, mongo, and nginx, 
+                                    to name a few.
+
 
 
 
