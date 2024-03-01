@@ -6,6 +6,41 @@ Event Viewer : eventvwr
 
 Telemetry ( enhance the user experience by preemptively identifying security and functional issues in software ).
 
+# Identity & Access Management :
+Standard vs Admin Account ==> Use standard account to access regular routin functions ( browser ... ).
+UAC : User Account Control 
+      Actions requiring elevated privileges will automatically prompt for administrative user 
+      account credentials if the logged-in user does not already possess these. )
+      Principle of Least Privilege : 
+            Control Panel -> User Accounts and click on Change User Account Control Setting 
+            ==> Set to 'always notify'
+Local Policy and Group Policies Editor ( Only for Pro and Entreprise )
+Password Policies ( Security settings > Account Policies > Password policy from Local group policy editor )
+Setting A Lockout Policy : ( Local Security Policy > Windows Settings > Account Policies > Account Lockout Policy )
+
+# Network Management :
+Windows Defender Firewall : WF.msc
+Disable unused Networking Devices :
+      Control panel > System and Security Setting > System > Device Manager
+Disable SMB protocol : 
+      Disable-WindowsOptionalFeature -Online -
+Protecting Local Domain Name System (DNS) :
+      C:\Windows\System32\Drivers\etc\hosts
+Mitigating Address Resolution Protocol Attack : ( arp -a to list )
+      Clear the ARP cache and prevent the attack : arp -d
+Preventing Remote Access to Machine :
+      Settings > Remote Desktop
+
+# Application Management :
+Trusted Application Store : ms-windows-store
+Safe App Installation : Only allow installation of applications from the Microsoft Store on your computer 
+        ==> ( Go to Setting > Select Apps and Features and then select The Microsoft Store only )
+AppLocker
+MS Edge : Turn on the Smart Screen ==> 
+        1) go to Settings > Windows Security > App and Browser Control > 
+        Reputation-based Protection. Scroll down and turn on the SmartScreen option.
+        2) Open Microsoft Edge, go to Settings and then click “Privacy, Search and Services”
+        Set "Tracking prevention" to Strict to avoid tracking through ads, cookies etc.
 
 
 
