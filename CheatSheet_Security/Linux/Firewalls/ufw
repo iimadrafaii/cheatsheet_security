@@ -1,4 +1,9 @@
-sudo ufw status
+UFW (uncomplicated firewall) : A front-end for iptables.
+
+Command-line Interface (CLI) front-ends, such as firewalld and ufw
+Graphical User Interface (GUI) front-ends, such as fwbuilder
+
+Check status : sudo ufw status
 
 UFW Default Policies :
       sudo ufw default allow outgoing
