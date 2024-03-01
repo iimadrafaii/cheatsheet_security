@@ -1,0 +1,8 @@
+Default chains : Input - Output - Forward
+
+Default drop :
+    iptables -A INPUT -j DROP
+    iptables -A OUTPUT -j DROP
+
+Flush ( delete ) previous rules : iptables -F
+
