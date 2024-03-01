@@ -1,0 +1,20 @@
+Access Windows services : services.msc ( in Run windows )
+
+Windows Registry : regedit
+
+Event Viewer : eventvwr
+
+Telemetry ( enhance the user experience by preemptively identifying security and functional issues in software ).
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------
