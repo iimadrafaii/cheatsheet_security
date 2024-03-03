@@ -43,6 +43,21 @@ MS Edge : Turn on the Smart Screen ==>
         Set "Tracking prevention" to Strict to avoid tracking through ads, cookies etc.
 
 
+# Storage Management : 
+Data Encryption Through BitLocker ( for business edition of Windows )
+==> Start > Control Panel > System and Security > BitLocker Drive Encryption
+Windows Sandbox
+Windows Secure Boot
+Enable File Backups
+==> Settings > Update and Security > Backup
+
+# Updating Windows :
+Click Start > Settings > Update & Security > Window Updates
+
+
+
+
+
 
 
 
