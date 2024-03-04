@@ -1,0 +1,25 @@
+Network Device (= Router, load balancers, ...) : 
+        used to control and manage network resource ( vs Endpoint Devices = laptops, ... )
+
+General Techniques : 
+        Updating & Patching
+        Disabling unnecessary services & ports
+        Principle of Least Privilege (POLP)
+        Logs Monitoring
+        Backup regularly
+        Enforcing Strong Passwords
+        Multi-Factor Authentication (MFA)
+
+Removal/Blocking of Insecure Protocols
+
+Implementation of Monitoring and Logging Controls :
+        Syslog
+        SNMP
+        NetFlow
+        Packet Captures
+
+
+
+
+
+--------------------------------------------------------------------------------
