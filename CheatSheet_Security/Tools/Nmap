@@ -1,0 +1,48 @@
+SCAN FOR LIVE TARGETS :
+	nmap -sn TARGETS
+	
+SCAN FOR LIVE HOSTS IN LOCAL NETWORK :
+	sudo arp-scan -I eth0 -l
+	nmap -PR -sn ATTACKBOX_IP/24   (-sn if you don't want to follow with a port scan)
+
+TCP SYN SCAN :
+	nmap -PS -sn MACHINE_IP/24
+	
+TCP ACK SCAN :
+	nmap -PA -sn MACHINE_IP/24
+	
+UDP PING SCAN :
+	nmap -PU -sn MACHINE_IP/24
+		
+ICMP SCAN WITH ECHO :
+	nmap -PE -sn MACHINE_IP/24
+	
+ICMP SCAN WITH TIMESTAMPS :
+	nmap -PP -sn MACHINE_IP/24
+	
+ICMP SCAN WITH MASK QUERIES :
+	nmap -PM -sn MACHINE_IP/24
+
+SMB :
+	nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse $IP
+
+NFS :
+	nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount $IP
+
+MASSCAN :
+	masscan MACHINE_IP/24 -p80,443
+
+Reverse DNS lookup for all the possibles hosts on a subnet :
+	nmap -R 
+	
+Discover firewall rule sets and configuration :
+	sudo nmap -sA $IP
+	
+Decoys :
+	nmap -D 10.10.0.1,10.10.0.2,RND,RND,ME MACHINE_IP
+	
+Fragment Packets :
+	nmap -f
+	
+Idle Zombie scan :
+	-sI Zombie_IP
