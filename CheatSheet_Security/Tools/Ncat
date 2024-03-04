@@ -1,0 +1,2 @@
+Listening : ncat -lvnp PORT_NUMBER
+Connecting : ncat IP_ADDRSS PORT_NUMBER
