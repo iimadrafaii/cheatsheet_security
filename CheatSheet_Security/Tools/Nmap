@@ -1,3 +1,23 @@
+We group Nmap techniques into three groups:
+	Evasion via controlling the source MAC/IP/Port
+	Evasion via fragmentation, MTU, and data length
+	Evasion through modifying header fields
+
+-Pn : is used to skip host discovery and testing whether the host is live
+
+Add proxies : ( Use an HTTP/SOCKS4 proxy to relay connections )
+	--proxies PROXY_URL
+
+Spoofed MAC Address :
+	--spoof-mac MAC_ADDRESS
+
+Spoofed IP Address :
+	-S IP_ADDRESS
+
+Fixed Source Port Number :
+	-g or --source-port
+
+
 SCAN FOR LIVE TARGETS :
 	nmap -sn TARGETS
 	
@@ -42,7 +62,26 @@ Decoys :
 	nmap -D 10.10.0.1,10.10.0.2,RND,RND,ME MACHINE_IP
 	
 Fragment Packets :
-	nmap -f
-	
+	Data of 8 Bytes  : nmap -f
+	Data of 16 Bytes : nmap -ff
+
+Fragment Your Packets According to a Set MTU : --mtu X ( where X is a multiple of 8, Ip header size is not included (=20B) )
+The Maximum Transmission Unit (MTU) indicates the maximum packet size that can pass 
+on a certain link-layer connection.
+
+Generate Packets with Specific Length : 
+	--data-length VALUE ( Ip header size is not included (=20B) )
+
+Set TTL : 
+	--ttl VALUE
+
+Set IP Options :
+	--ip-options HEX_STRING
+
+Use a Wrong Checksum :
+	--badsum
+
 Idle Zombie scan :
 	-sI Zombie_IP
+
+------------------------------------------------------------------------------------
