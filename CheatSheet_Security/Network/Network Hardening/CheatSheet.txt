@@ -28,6 +28,19 @@ Hardening Routers, Switches & Firewalls :
         Securing Wi-Fi: If the router has Wi-Fi capabilities, securing the Wi-Fi by 
                         enabling strong encryption like WPA2/WPA3, disabling SSID 
                         broadcast, changing default passwords, and more.
+        Manage traffic rules
+        Monitor traffic
+        Configuring port forwarding
+        Monitoring scheduled tasks
+        Update firmware
+        Configuring port security : limiting the number of MAC addresses registered on a switch port
+        Preventing ARP spoofing : enabling static ARP tables and implementing MAC address filtering
+        Preventing rogue DHCP servers : 
+                Configuring static DHCP binding and ensuring no unknown devices are added to a network 
+                through network mapping tools
+        Enabling IPv6 : built-in support of IPsec
+
+
 
 
 
