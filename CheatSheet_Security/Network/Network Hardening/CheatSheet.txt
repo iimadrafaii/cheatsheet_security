@@ -18,7 +18,16 @@ Implementation of Monitoring and Logging Controls :
         NetFlow
         Packet Captures
 
+Hardening Virtual Private Networks ( SEE VPN HARDENING ) 
 
+Hardening Routers, Switches & Firewalls :
+        Setting up the device ( timezone, logging ... )
+        Change default credentials
+        Enable secure network protocols
+        Disabling unnecessary scripts
+        Securing Wi-Fi: If the router has Wi-Fi capabilities, securing the Wi-Fi by 
+                        enabling strong encryption like WPA2/WPA3, disabling SSID 
+                        broadcast, changing default passwords, and more.
 
 
 
