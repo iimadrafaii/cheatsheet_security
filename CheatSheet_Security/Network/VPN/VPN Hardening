@@ -1,1 +1,28 @@
 
+Use strong encryption algorithm : 
+        AES-256-CBC is typically considered one of the strongest cipher encryption nowadays
+
+Keep VPN gateway software up-to-date :
+        sudo apt upgrade openvpn
+
+Implement strong authentication :
+        auth directive ( SHA1, SHA128, SHA256, SHA512 and MD5 )
+
+Change default settings :
+        Change the default usernames and passwords
+
+Enable Perfect Forward Secrecy (PFS) :
+        ( To generate a new key : sudo openvpn --genkey --secret my.key )
+        The tls-crypt directive requires a key.
+
+Dedicated Users for VPN Server :
+        Limit user access by creating a dedicated user account and group with restricted 
+        permissions specifically for running the OpenVPN server.
+
+
+
+
+
+
+
+---------------------------------------------------------------------------
