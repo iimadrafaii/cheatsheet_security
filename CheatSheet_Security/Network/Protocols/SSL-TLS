@@ -1,0 +1,15 @@
+SSL = Secure Socket Shell
+TLS = Transport Layer Security
+
+SSL/TLS Workflow :
+        Client Hello Message
+        Server Hello Message
+        Authentication
+        Premaster Secret
+        Decryption of Premaster
+        Session Keys Generated
+        Ready Messages
+
+
+
+------------------------------------------------------------------------------------
