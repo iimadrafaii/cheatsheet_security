@@ -1,0 +1,37 @@
+SMTP is an “Email Push Protocol” commonly used to transfer emails from an SMTP client to an SMTP server.
+
+Two models :
+        SMTP End-to-End : 
+                The sender-side SMTP client initiates an SMTP connection to the recipient’s SMTP server
+        SMTP Store-and-Forward :
+                The SMTP server will maintain the copy of the mail within itself (store)
+                until the copy is forwarded to the receiver.
+
+SMTP Components :
+        User Agent (UA) : 
+                Responsible for creating the email message and sending it to the Mail Transfer Agent (MTA)
+        Mail Transfer Agent (MTA) :
+                MTA will transfer the email from the UA to the recipient MTA across the Internet 
+                (often, the MTA and Mail Delivery Agent are hosted on the same server).
+
+POP3 is used to download email messages from the server to the client.
+
+For encryption, the STARTTLS command is used between the email client and the email server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
