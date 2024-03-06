@@ -1,0 +1,13 @@
+DNSSEC requires two main things :
+        The DNS zone owner should sign all DNS records using their private key
+        The DNS zone publishes its public key so users can check the validity of the DNS records signatures
+
+With signed records, DNSSEC provides the following:
+        Authenticity
+        Integrity
+
+
+
+
+
+---------------------------------------------------------------------------------
