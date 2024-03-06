@@ -1,0 +1,5 @@
+POP3S : Post Office Protocol Secure
+
+Retrieves email messages from a Mail Delivery Agent (MDA) to a Mail User Agent (MUA).
+
+The POP3S Protocol uses port 995, while POP3 uses port 110
