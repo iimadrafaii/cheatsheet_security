@@ -21,7 +21,7 @@ Request and Response - FTPS :
 
 The standard port for FTP and Explicit FTPS is 21, whereas it is 990 in the case of Implicit FTPS
 
-
+In a passive FTP connection, the first command that the client send over the command channel is : PASV
 
 
 
