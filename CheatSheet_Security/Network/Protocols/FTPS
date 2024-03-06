@@ -1,0 +1,36 @@
+Request and Response - FTP : 
+        Control Connection 
+                To send and receive commands
+        Data Connection :
+                After authentication, this connection is used for transferring data (files and folders)
+
+FTP has two modes:
+# Active Mode :
+        The FTP client connects to the FTP server at TCP port 21 to establish a command connection.
+        The FTP server connects to the FTP client at TCP port 20 to establish a data connection. 
+# Passive Mode :
+        The client establishes the control and data connections
+        The client sends the PASV command to the server
+        The server sends a random port to the client
+
+Request and Response - FTPS :
+        Implicit Connection :
+                Both command and data channels are secured automatically with SSL encryption
+        Explicit Connection :
+                You can choose which channel to encrypt ( Command and/or data )
+
+The standard port for FTP and Explicit FTPS is 21, whereas it is 990 in the case of Implicit FTPS
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------
