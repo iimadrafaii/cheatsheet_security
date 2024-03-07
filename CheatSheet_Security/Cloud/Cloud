@@ -4,3 +4,39 @@ Characteristics of Cloud :
         Cost Effective
         Enhance Automation
 
+Models of Cloud Computing :
+        Infrastructure as a Service (IaaS)
+        Platform as a Service (PaaS)
+        Software as a Service (SaaS)
+
+Security Aspects in Cloud Data Lifecycle :
+        Create/Update :
+                Implementing SSL/TLS
+                Encryption
+                Secure connections
+        Store :
+                Encryption
+                Backup
+        Use :
+                Secure connections
+                Secure platform ( secure authentication mechanism )
+                Restrict Permissions
+                Secure Virtualisation
+        Share :
+                Jurisdiction
+                Data Loss Prevention (DLP)
+        Archive :
+                Encryption
+                Physical Security
+                Location
+                Backup Procedure
+        Destroy :
+                Crypto shredding :
+                        A process in which encrypted data is useless by destroying cryptographic keys
+        
+
+
+
+
+
+---------------------------------------------------------------------------------------
