@@ -6,10 +6,15 @@ Advantages :
 The operating system installed in a virtual machine is known as a guest OS, 
 as opposed to the host OS on which the virtualization engine is running
 
-
-
-
-
+Virtualization engine types :
+        Hypervisors : 
+                Type 1 Hypervisors :
+                        Directly create a lightweight operating system on top of the hardware that is the hypervisor
+                Type 2 Hypervisors :
+                        Add a hypervisor as an application on top of a pre-existing operating system
+                        ( VMware Workstation, VMware Fusion, VirtualBox, Parallels, and QEMU )
+        Containers
+        
 
 
 
