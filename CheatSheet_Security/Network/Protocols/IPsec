@@ -2,3 +2,25 @@ IPsec uses the following protocols :
         Authentication Header (AH)
         Encapsulating Security Payload (ESP)
         Security Association (SA)
+
+# Authentication Header (AH) :
+The protocol is responsible for the authentication and the integrity of the traffic; 
+however, it cannot protect the confidentiality of the data.
+It has two modes : 
+        Transport Mode :
+                Provides authentication for the TCP/UDP header and data
+        Tunnel Mode : 
+                Provides authentication for the IP header, TCP/UDP header, and data
+
+
+# Encapsulating Security Payload (ESP) :
+Provides encryption in addition to authentication and integrity. 
+It works in two modes:
+        Transport Mode :
+                Provides security (confidentiality and integrity) for the TCP/UDP header and data
+        Tunnel Mode: 
+                Provides security (confidentiality and integrity) for the IP header, TCP/UDP header, and data
+
+
+
+----------------------
