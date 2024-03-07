@@ -2,7 +2,9 @@ The two most common protocols used to establish VPN connections are :
         IPsec
         SSL/TLS
 
-SSL/TLS has found its way to establish secure VPN connections with OpenVPN
+OpenVPN client use SSL/TLS to establish a VPN connection
+
+Cisco VPN client use IPsec to establish a VPN connection
 
 Point to Point Tunneling Protocol (PPTP) is no longer considered secure.
 
