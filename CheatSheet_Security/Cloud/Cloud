@@ -34,7 +34,16 @@ Security Aspects in Cloud Data Lifecycle :
                 Crypto shredding :
                         A process in which encrypted data is useless by destroying cryptographic keys
         
-
+Cloud security : 
+        Security through access management: 
+                Ensure that the right people should perform the right job within the right set of permissions.
+        Security through policies: 
+                Set conditions and guidelines under which users & resources can perform specific actions.
+        Security through networking: 
+                Ensure that cloud instances remain safe from network-oriented attacks.
+        Security through storage management: 
+                Ensure the security of sensitive data stored in cloud storage through various means, including encryption and geographical settings, etc.
+        Essential concepts like security through logging, Disaster Recovery & Backup, the importance of updates, etc.
 
 
 
