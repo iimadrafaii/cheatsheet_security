@@ -1,0 +1,7 @@
+An authorisation mechanism that relies on user policies and hierarchies should be adequately implemented. 
+
+Strict access controls methods to check if the logged-in user is authorised to perform specific actions. 
+
+Promote using completely random values (strong encryption and decryption mechanism) for nearly impossible-to-predict tokens.
+
+---------------------------------------------------------------------------------------------------------
