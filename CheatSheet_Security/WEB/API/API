@@ -1,1 +1,14 @@
+Ensure complex passwords with higher entropy for end users.
 
+Do not expose sensitive credentials in GET or POST requests.
+
+Enable strong JSON Web Tokens (JWT), authorisation headers etc.
+
+Ensure the implementation of multifactor authentication (where possible), account lockout, or a captcha system to mitigate brute force against particular users. 
+
+Ensure that passwords are not saved in plain text in the database to avoid further account takeover by the attacker. 
+
+
+
+
+-----------------------------------------------------------------------------------------------
