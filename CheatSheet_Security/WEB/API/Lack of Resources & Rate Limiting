@@ -1,0 +1,8 @@
+Ensure using a captcha to avoid requests from automated scripts and bots.
+
+Ensure implementation of a limit, i.e., how often a client can call an API within a specified time and notify instantly when the limit is exceeded. 
+
+Ensure to define the maximum data size on all parameters and payloads, i.e., max string length and max number of array elements.
+
+
+--------------------------------------------------------------------------------------------------------
