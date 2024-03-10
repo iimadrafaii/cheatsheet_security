@@ -1,0 +1,12 @@
+Ensure to use a well-known library for client-side input validation.
+
+If a framework is not used, all client-provided data must be validated first and then filtered and sanitised. 
+
+Add necessary security rules to the Web Application Firewall (WAF). Most of the time, injection flaws can be mitigated at the network level.
+
+Make use of built-in filters in frameworks like Laravel, Code Ignitor etc., to validate and filter data. 
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
