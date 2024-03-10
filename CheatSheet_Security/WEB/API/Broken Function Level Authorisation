@@ -1,0 +1,5 @@
+Ensure proper design and testing of all authorisation systems and deny all access by default
+
+Ensure that the operations are only allowed to the users belonging to the authorised group
+
+Make sure to review API endpoints against flaws regarding functional level authorisation and keep in mind the apps and group hierarchy's business logic
