@@ -1,0 +1,14 @@
+For ex 2 versions of the same API and the old one is not deactivated and contains 
+vulnerabilities or return more information than the first one ...
+
+# Mitigations : 
+Access to previously developed sensitive and deprecated API calls must be blocked at the network level.
+
+APIs developed for R&D, QA, production etc., must be segregated and hosted on separate servers.
+
+Ensure documentation of all API aspects, including authentication, redirects, errors, CORS policy, and rate limiting. 
+
+Adopt open standards to generate documentation automatically.
+
+
+------------------------------------------------------------------------------------------------------------------------------------
