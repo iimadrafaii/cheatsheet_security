@@ -1,0 +1,9 @@
+Ensure use of the Security Information and Event Management (SIEM) system for log management. 
+
+Keep track of all denied accesses, failed authentication attempts, and input validation 
+errors, using a format imported by SIEM and enough detail to identify the intruder.
+
+Handle logs as sensitive data and ensure their integrity at rest and transit. Moreover, implement custom alerts to detect suspicious activities as well. 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
