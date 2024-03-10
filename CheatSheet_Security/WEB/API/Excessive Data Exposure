@@ -1,0 +1,11 @@
+Never leave sensitive data filtration tasks to the front-end developer. 
+
+
+Ensure time-to-time review of the response from the API to guarantee it returns only legitimate data and checks if it poses any security issue. 
+
+Avoid using generic methods such as to_string() and to_json(). 
+
+Use API endpoint testing through various test cases and verify through automated and manual tests if the API leaks additional data.
+
+
+-------------------------------------------------------------------------------------------------------
