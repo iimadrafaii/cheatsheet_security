@@ -1,0 +1,15 @@
+Several factors can result in security misconfiguration, including improper/incomplete default 
+configuration, publically accessible cloud storage, Cross-Origin Resource Sharing (CORS), and 
+error messages displayed with sensitive data.
+
+# Mitigations :
+Limit access to the administrative interfaces for authorised users and disable them for other users. 
+
+Disable default usernames and passwords for public-facing devices (routers, Web Application Firewall etc.).
+
+Disable directory listing and set proper permissions for every file and folder. 
+
+Remove unnecessary pieces of code snippets, error logs etc. and turn off debugging while the code is in production.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
