@@ -1,2 +1,5 @@
 SAST = Static Application Security Testing
 
+SCA = Software Composition Analysis
+==> used to scan dependencies for security vulnerabilities
+( track and analyse any open-source component brought into a project )
