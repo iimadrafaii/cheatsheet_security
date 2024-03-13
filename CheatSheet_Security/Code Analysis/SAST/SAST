@@ -13,6 +13,7 @@ The different analysis techniques commonly used by SAST tools :
 
 Tools :
         Psalm (PHP Static Analysis Linting Machine)
+        Semgrep
 
 SAST can be implemented in one of the following ways :
         CI/CD integration: 
