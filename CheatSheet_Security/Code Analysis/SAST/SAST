@@ -3,3 +3,12 @@ SAST = Static Application Security Testing
 SCA = Software Composition Analysis
 ==> used to scan dependencies for security vulnerabilities
 ( track and analyse any open-source component brought into a project )
+
+The different analysis techniques commonly used by SAST tools :
+        Semantic analysis
+        Dataflow analysis
+        Control flow analysis
+        Structural analysis
+        Configuration analysis
+
+--------------------------------------------------------------------------------------------------------
