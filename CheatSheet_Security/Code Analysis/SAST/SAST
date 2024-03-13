@@ -11,4 +11,14 @@ The different analysis techniques commonly used by SAST tools :
         Structural analysis
         Configuration analysis
 
+Tools :
+        Psalm (PHP Static Analysis Linting Machine)
+
+SAST can be implemented in one of the following ways :
+        CI/CD integration: 
+                Each time a pull request or a merge is made, SAST tools will check the code for vulnerabilities.
+                On some occasions, SAST scans only at merges ...
+        IDE integration
+
+
 --------------------------------------------------------------------------------------------------------
