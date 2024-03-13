@@ -1,0 +1,13 @@
+Local File Inclusion (LFI) attacks are made possible by the misuse of one of the following functions in PHP:
+        require()	
+        include()	
+        require_once()	
+        include_once()
+
+MySQL : 
+        mysqli_query()
+        mysql_query()
+        mysqli_prepare()
+        query()
+        prepare()
+
