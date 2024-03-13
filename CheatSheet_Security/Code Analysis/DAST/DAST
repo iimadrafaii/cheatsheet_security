@@ -1,0 +1,5 @@
+DAST = Dynamic Application Security Testing
+( a black-box testing method )
+
+DAST is typically used during the testing phase of SDLC.
+
