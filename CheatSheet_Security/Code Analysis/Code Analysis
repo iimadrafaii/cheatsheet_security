@@ -1,0 +1,18 @@
+DEVELOPMENT :
+        SAST
+        SCA
+
+INTEGRATION : 
+        SCA
+
+ACCEPTANCE STAGE :
+        SAST
+        DAST
+
+PRE PROD STAGE :
+        SAST
+        DAST
+        IAST
+
+PRODUCTION :
+        RASP
