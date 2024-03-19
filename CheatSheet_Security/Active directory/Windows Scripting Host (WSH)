@@ -1,0 +1,13 @@
+WSH = Windows Scripting Host
+
+It is a Windows native engine, cscript.exe (for command-line scripts) and wscript.exe (for UI scripts), 
+which are responsible for executing various Microsoft Visual Basic Scripts (VBScript), including vbs and vbe. 
+
+Run a vbs or vbe scripts : 
+        cscript payload.vbs
+        wscript payload.vbs
+
+Run a text file as a script :
+        wscript /e:VBScript payload.txt
+
+------------------------------------------------------------------------------------------------------------------------------------
