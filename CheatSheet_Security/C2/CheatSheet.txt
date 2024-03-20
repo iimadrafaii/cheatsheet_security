@@ -14,7 +14,8 @@ Obfuscating Agent Callbacks :
 
 Payload Types :
         Stageless Payloads
-        Staged Payloads
+        Staged Payloads :
+                Dropper : The first portion of a Staged payload
 
 Payload Formats :
         PowerShell Scripts
