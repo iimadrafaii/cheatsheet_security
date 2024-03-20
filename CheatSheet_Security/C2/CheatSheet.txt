@@ -27,9 +27,9 @@ Domain Fronting :
         Using a known host service online to be used as proxy for our C2 requests. 
         It makes it appear that a workstation or server is communicating with a known, trusted IP Address ( IP of the nearest host service server )
         
-
-
-
+C2 Profiles :
+        The C2 server send back a response to coming requests based on the type of the sender ( compromised machine, security analyst ... ) 
+        ==> for ex by adding a specific header in beacons to distinguish beacons from normal requests.
 
 
 
