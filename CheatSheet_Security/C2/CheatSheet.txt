@@ -12,10 +12,21 @@ Obfuscating Agent Callbacks :
         Jitter :
                 Jitter takes the sleep timer and adds some variation to it
 
+Payload Types :
+        Stageless Payloads
+        Staged Payloads
 
+Payload Formats :
+        PowerShell Scripts
+        HTA
+        JScript
+        Visual Basic Application/Scripts
+        Microsoft Office Documents
 
-
-
+Domain Fronting :
+        Using a known host service online to be used as proxy for our C2 requests. 
+        It makes it appear that a workstation or server is communicating with a known, trusted IP Address ( IP of the nearest host service server )
+        
 
 
 
