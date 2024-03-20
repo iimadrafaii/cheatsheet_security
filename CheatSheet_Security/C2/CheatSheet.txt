@@ -32,7 +32,8 @@ C2 Profiles :
         The C2 server send back a response to coming requests based on the type of the sender ( compromised machine, security analyst ... ) 
         ==> for ex by adding a specific header in beacons to distinguish beacons from normal requests.
 
-
+SMB Beacon :
+        A communication method that can potentially allow access to a restricted network segment that communicates via TCP ports 139 and 445
 
 
 
