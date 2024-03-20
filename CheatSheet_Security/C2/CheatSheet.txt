@@ -1,12 +1,16 @@
 Dnscat2 is a tool that creates C2 tunnels over DNS packets.
 
+Command and Control Structure :
+        C2 Server
+        Agents / Payloads
+        Listeners
+        Beacons : 
+                A Beacon is the process of a C2 Agent calling back to the listener running on a C2 Server
 
-
-
-
-
-
-
+Obfuscating Agent Callbacks :
+        Sleep Timers
+        Jitter :
+                Jitter takes the sleep timer and adds some variation to it
 
 
 
