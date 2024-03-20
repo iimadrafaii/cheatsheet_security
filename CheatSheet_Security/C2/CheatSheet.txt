@@ -35,6 +35,28 @@ C2 Profiles :
 SMB Beacon :
         A communication method that can potentially allow access to a restricted network segment that communicates via TCP ports 139 and 445
 
+C2 Frameworks :
+        Free :
+                Metasploit
+                Armitage :
+                        An extension of the Metasploit Framework - it adds a Graphical user interface and is written in Java
+                Powershell Empire/Starkiller
+                Covenant
+                Sliver
+        Paid :
+                Cobalt Strike
+                Brute Ratel
+        
+
+
+
+
+
+
+
+
+
+
 
 
 
