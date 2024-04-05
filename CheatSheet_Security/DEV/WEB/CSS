@@ -1,1 +1,45 @@
+<link rel="stylesheet" type="text/css" href="myfile.css">
 
+SPECIFICITY :
+        Slot 1 : Number of element selectors
+        Slot 2 : Number of class selectors - pseudo-class selectors - attribute selectors
+        Slot 3 : having an id selector
+        Slot 4 : Inline style
+        Slot 5 : Importance
+        
+Import : 
+        @import url(myfile.css)
+
+You can use media descriptors to only load a CSS file on the specific media :
+        @import url(myfile.css) all;
+        @import url(myfile-screen.css) screen;
+        @import url(myfile-print.css) print;
+
+Attribute presence selectors :
+        elem[attr]
+
+Exact attribute value selectors (case sensitive)
+        elem[attr='value']
+        *= (contains)        ^= (starts)        $= (ends)        
+        |= (attr starts with value or just contains the value)        
+        ~= (value in attr but separated by spaces from the rest)
+
+        Making it case insensitive : ( adding i )
+                [b="xyz" i]
+
+PSEUDO-CLASSES :
+        :nth-child(X)
+        X in {odd, even, -n+4=first 4, 3n+4}
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
