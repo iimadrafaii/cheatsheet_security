@@ -31,7 +31,7 @@ PSEUDO-CLASSES :
         :nth-child(X)
         X in {odd, even, -n+4=first 4, 3n+4}
 
-
+// : Ignores the next instruction ( add {} at the end to make it like a line of comment
 
 
 
