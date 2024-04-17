@@ -34,8 +34,12 @@ PSEUDO-CLASSES :
 // : Ignores the next instruction ( add {} at the end to make it like a line of comment
 
 
+By default, if you set a width (or height) on the element, that is going to be applied 
+to the content area. All the padding, border, and margin calculations are done outside 
+of the value, so you have to keep this in mind when you do your calculation.
 
 
+border: 2px black solid;
 
 
 
