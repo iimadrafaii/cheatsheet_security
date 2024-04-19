@@ -6,3 +6,5 @@ Vulnerability Lifecycle :
         Patch Released
         ( Patch applied )
 
+0-day : A vulnerability not patched by the vendor and unknown to most people.
+n-day : An exploit developed once the vendor has released the patch.
