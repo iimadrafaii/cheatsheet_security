@@ -1,0 +1,8 @@
+Vulnerability Lifecycle :
+        (Product Launched)
+        Vulnerability Discovered
+        Development of PoC
+        Development of Patch
+        Patch Released
+        ( Patch applied )
+
