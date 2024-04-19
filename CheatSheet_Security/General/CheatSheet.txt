@@ -105,7 +105,7 @@ Vulnerability Lifecycle :
 n-day : An exploit developed once the vendor has released the patch.
 
 
-
+SOAR : Security Orchestration, Automation, and Response
 
 
 
