@@ -1,0 +1,2 @@
+Shift left : accounting for security from the earliest stages in a development lifecycle
+
