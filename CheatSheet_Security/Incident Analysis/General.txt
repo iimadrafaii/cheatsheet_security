@@ -1,0 +1,10 @@
+Incident Response and Management
+
+Alert VS Incident :
+        An alert's severity must be high enough to become an incident.
+
+Incident Response :
+        What happened ?
+
+Incident Management :
+        How do we respond to what happened ?
