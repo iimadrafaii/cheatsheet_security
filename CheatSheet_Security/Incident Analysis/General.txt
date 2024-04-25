@@ -30,7 +30,12 @@ The Process of Incident Management :
         Recovery
         Post-Incident Activity
 
-
+Common Pitfalls During an Incident :
+        Insufficient Hardening
+        Insufficient Logging
+        Insufficient Determination of Incident Scope
+        Insufficient Accountability
+        Insufficient Backups
 
 
 
