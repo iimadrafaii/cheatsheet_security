@@ -5,6 +5,46 @@ Alert VS Incident :
 
 Incident Response :
         What happened ?
+        Understand the scope of the incident
 
 Incident Management :
         How do we respond to what happened ?
+
+
+Levels of Incidents Response and Management :
+        Level 1 : SOC Incident
+        Level 2 : CERT Incident
+        Level 3 : CSIRT Incident
+        Level 4 : CMT Incident
+
+The Process of Incident Management :
+        Preparation :
+                Identify and document key stakeholders and call trees that will be used during an incident
+                Create and update playbooks that aid the team in following a set process for incidents with a known nature
+                Exercise the team's ability to deal with an incident through tabletop exercises and cyber war games
+                Continuously perform threat hunting to help create new alert rules based on modern attacker techniques
+        Detection and Analysis ( and Triage ) :
+                The triage step is responsible for determining the severity of the incident
+        Containement
+        Eradication
+        Recovery
+        Post-Incident Activity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
