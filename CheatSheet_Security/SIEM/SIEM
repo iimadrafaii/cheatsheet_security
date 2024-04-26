@@ -3,13 +3,21 @@ SIEM = Security Information and Event Management
 A Security Information and Event Management system (SIEM) is a tool used 
 to collect, index, and search data from various endpoints and network locations
 
+SIEMs are typically architected with three components used for searching, indexing, and load-balancing; 
+These components are commonly known as the search head, indexer, and forwarder, respectively.
 
+Data ingestion :
+        How data arrives from a device to the indexer
+        Types of data ingestion :
+                Agent/forwarder
+                Port-forwarding
+                Syslog
+                Upload
 
-
-
-
-
-
+Data storage : 
+        Cold storage : Accessed rarely and not really performant but does the job.
+        Warm storage
+        Hot  storage : Data accessed often and requires higher performance
 
 
 
