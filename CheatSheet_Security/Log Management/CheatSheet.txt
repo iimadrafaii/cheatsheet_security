@@ -1,0 +1,15 @@
+Tools for log management :
+        logrotate : A tool that automates log file rotation, compression, and management, 
+                    ensuring that log files are handled systematically. It allows automatic 
+                    rotation, compression, and removal of log files.
+        rsyslog : Enhance the centralisation and management of logs
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
