@@ -60,12 +60,45 @@ Playbook : Process that the blue team follows during an incident.
 Call tree : The structure used to inform all the relevant parties about the incident.
 
 Isolation of the Incident :
-        Containment
+        Containment :
+                Network Segmentation
+                Physical Isolation
+                Virtual Isolation
         Eradication
         Recovery
 
+BCP = Business Continuity Plan
+DRP = Disaster Recovery Plan
+BAU = Business as Usual
+
+As a security engineer, you may be responsible for creating a BCP.
+Creating a BCP :
+        Perform a Business Impact Analysis
+        Define the Potential Recovery Actions
+        Plan the BCP Team Structure        
+        Test the BCP Plan
+BCP Metrics :
+        Recovery Point Objective : 
+                The amount of data we are willing to accept can be lost
+        Recovery Time Objective : 
+                The amount of time required to recover the hardware of our system
+        Work Recovery Time : 
+                The amount of time required to recover the software and data of our system
+        Maximum Tolerable Downtime : 
+                The maximum amount of downtime that we are willing to accept. 
+                We have to ensure that our RTO and WRT combined do not exceed this threshold
+        Mean Time Between Failures :
+                How long our system will operate between incidents on average
+        Mean Time To Repair :
+                How long it will take to recover our system on average
 
 
+We have learned what it takes to become a first responder. To summarise:
+
+        Make sure that you preserve evidence and understand that some evidence may be more volatile.
+        Make sure that you understand how you should raise the alarm that an incident has occurred, whether through a ticket submission or a call tree.
+        Isolation is key to ensuring that the scope of the incident can be contained. However, there are many different methods that can be used for isolation.
+        BCP can be used to ensure that rapid changes can be made to help address the incident, but documentation is incredibly important to be able to retrace actions and get the environment back to business as usual as fast as possible.
 
 
 
