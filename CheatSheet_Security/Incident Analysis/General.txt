@@ -37,6 +37,20 @@ Common Pitfalls During an Incident :
         Insufficient Accountability
         Insufficient Backups
 
+The Internet Engineering Task Force (IETF) created a document called Guidelines for Evidence Collection and Archiving, that provides the following volatility order with reasoning :
+        Registers and Cache
+        Routing Table, ARP Cache, Process Table, Kernel Statistics and Memory
+        Temporary File Systems
+        Disk
+        Remote Logging and Monitoring
+        Physical Configuration and Network Topology
+        Archival Media
+
+The Other Two Big DON'Ts :
+        Don't trust the programs on the system
+        Don't run programs that modify the access times of files
+
+Chain of custody : A term used to describe ensuring that evidence can be used in legal proceedings
 
 
 
@@ -46,10 +60,4 @@ Common Pitfalls During an Incident :
 
 
 
-
-
-
-
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
