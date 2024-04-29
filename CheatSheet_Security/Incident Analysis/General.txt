@@ -56,6 +56,15 @@ Some tasks that an engineer may have :
         Creating playbooks 
         Creating call trees
 
+Playbook : Process that the blue team follows during an incident.
+Call tree : The structure used to inform all the relevant parties about the incident.
+
+Isolation of the Incident :
+        Containment
+        Eradication
+        Recovery
+
+
 
 
 
