@@ -116,6 +116,30 @@ Roles in the CMT :
         Scribe : Note-taking ==> detail all events and conversations during the CMT session
 
 
+The Golden Hour : (When the CMT is invoked, the first hour is one of the most crucial)
+        Assembly
+        Information Gathering
+        Crisis Triage
+        Notifications
+
+The CMT Process :
+        Information Updates
+        Triage
+        Action Discussions
+        Action Approvals :
+                Would you be able to make these critical decisions, choosing 
+                between the lesser of two evils in a limited amount of time?
+        Documentation and Crisis Closure
+
+The CMT chair is ultimately responsible for ensuring that the CMT takes action.
+
+DR = Disaster Recovery
+
+When the severity of an incident becomes sufficiently large, the CSIRT will invoke CMT to help them deal with the crisis.
+The CMT has to make the most of the Golden Hour to ensure that crucial time is not lost to deal with the crisis.
+The CMT follows a process of receiving updates on the crisis scope and discussing the crisis before taking action to help close the crisis.
+Subject Matter Experts play an important role in providing critical information to the CMT to help them better understand the scope of the crisis and take the appropriate actions to deal with it.
+
 
 
 
