@@ -102,5 +102,24 @@ We have learned what it takes to become a first responder. To summarise:
 
 
 
+CMT = Crisis Management Team
+
+Roles in the CMT :
+        CMT Chair : 
+                CEO or the COO
+        Executives : 
+                This includes the CEO, COO, CIO, CTO, CFO, and even the CISO
+        Communication 
+        Legal
+        Operations
+        Subject Matter Experts
+        Scribe : Note-taking ==> detail all events and conversations during the CMT session
+
+
+
+
+
+
+
 
 ------------------------------------------------------------------------------------------------------------
