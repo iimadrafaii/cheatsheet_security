@@ -55,10 +55,22 @@ Enable File Backups
 Click Start > Settings > Update & Security > Window Updates
 
 
+Securing Authentication Methods :
+      The LM hash is relatively weaker than the NT and is prone to a fast brute-force attack.
+      The best recommendation is to prevent Windows from storing the password's LM hash.
+      
+      LM hash = LAN Manager hash
+      NT hash = Windows NT hash
 
+SMB Signing :
+      Configuring SMB signing through group policy is crucial to detect Man in the Middle (MiTM) 
+      attacks that may result in modification of SMB traffic in transit. SMB signing ensures the 
+      integrity of data for both client and server
 
+LDAP Signing :
 
-
+LDAP = Light Weight Directory Access Protocol
+LDAP enables locating and authenticating resources on the network
 
 
 
