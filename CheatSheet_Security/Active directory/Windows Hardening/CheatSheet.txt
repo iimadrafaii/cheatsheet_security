@@ -84,8 +84,22 @@ Password Policies :
             Complexity requirements
 
 
+Implementing the least privilege model :
+      Creating the Right Type of Accounts
+      Role-Based Access Control on Hosts
 
 
+TAM = Tiered Access Model
+Tiered Access Model :
+      Tier 0: Top level and includes all the admin accounts, Domain Controller, and groups.
+      Tier 1: Domain member applications and servers. 
+      Tier 2: End-user devices like HR and sales staff (non-IT personnel).
+EAM = Enterprise Access Model
+
+Auditing Accounts :
+      Usage
+      Privilege 
+      Change audits
 
 
 ------------------------------------------------------------------------------------
