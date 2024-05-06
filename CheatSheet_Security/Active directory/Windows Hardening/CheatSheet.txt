@@ -72,7 +72,16 @@ LDAP Signing :
 LDAP = Light Weight Directory Access Protocol
 LDAP enables locating and authenticating resources on the network
 
+Password Rotation :
+      A script to update passwords automatically in the Scheduled Task with the help of PowerShell
+      Add a Multi-Factor Authentication (MFA) solution
+      Password rotation through Group Managed Services Accounts (gMSAs)
 
+Password Policies :
+      Understanding Password Policy Settings :
+            Enforce password history
+            Minimum password length
+            Complexity requirements
 
 
 
