@@ -10,4 +10,15 @@ SDLC = Software Development Life Cycle
 SRS = Software Requirement Specification
 ARD = Architecture Design Review
 
+CALMS = Culture, Automation, Lean, Measurement, and Sharing
+        Culture : 
+                Culture of devops
+        Automation﻿ : 
+                Configs ...
+        Lean : 
+                Tasks are broken as small as possible
+                We start with a lean first version that is constantly improved with time
+        
+
+
 ------------------------------------------------------------------------------------------------------------------------------------
