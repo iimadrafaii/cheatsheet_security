@@ -20,5 +20,12 @@ CALMS = Culture, Automation, Lean, Measurement, and Sharing
                 We start with a lean first version that is constantly improved with time
         
 
+Metrics :
+        MTTP : Meantime to production
+                The time between when a code change is committed and when it is in a deployed state
+        Failure Rate
+        Deployment frequency
+        MTTR : Meantime to recovery
+
 
 ------------------------------------------------------------------------------------------------------------------------------------
