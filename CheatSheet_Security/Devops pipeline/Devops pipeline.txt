@@ -22,4 +22,15 @@ SDKs = Software development kits
                 Snyk
                 Sonarqube
 
+## Continuous Integration and Delivery :
+        
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------
 
