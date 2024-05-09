@@ -1,0 +1,25 @@
+# Pipeline Automation :
+
+## Source Code and Version Control :
+        SVN vs GIT
+        Tool to extract sensitive information from a GIT repo : GittyLeaks
+
+SDKs = Software development kits
+
+## Dependency Management :
+        JFrog Artifactory or Azure Artifacts
+
+## Automated Testing :
+        Unit Testing
+        Integration Testing :
+                Regression testing : 
+                        Ensure that new features do not adversely impact existing features and functionality
+        Security Testing :
+                SAST
+                DAST
+                Penetration Testing
+        Common Tools :
+                Snyk
+                Sonarqube
+
+
