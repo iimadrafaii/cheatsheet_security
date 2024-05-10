@@ -32,10 +32,25 @@ SDKs = Software development kits
                 Delivery Actions
         Build orchestrator ==> JENKINS
 
+## Environments :
+        DEV - Development
+        UAT - User Acceptance Testing
+        PreProd - Pre-Production
+        DR/HA - Disaster Recovery or High Availability :
+                If the switchover is instantaneous, it is usually called a HA environment.
+                In the event where some (but still small) downtime is allowed, 
+                the environment is called a DR environment.
+        Green and Blue Environments :
+                Blue server is the current version
+                Green server is the newer version deployed
+                Blue server is kept for some time to be sure of the green server is good
+                Using a proxy or a router, all traffic can then be switched between the two servers if necessary
+        Canary Environments :
+                Two servers ( similar to green and blue env ) 
+                Users are gradually moved to the newer version ( 10% .. 20% ... )  
+Common Tools for env ==> Terraform
 
-
-
-
+Developer Bypasses = A common class of vulnerabilities that is discovered in PROD due to insecure code creeping in from DEV
 
 
 ---------------------------------------------------------------------------
