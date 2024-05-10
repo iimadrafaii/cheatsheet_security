@@ -23,8 +23,14 @@ SDKs = Software development kits
                 Sonarqube
 
 ## Continuous Integration and Delivery :
-        
-
+        CI/CD : An automated process can be followed to compile, build, integrate, and deploy new software features
+        CI/CD pipeline elements : ( build agents )
+                Starting Trigger
+                Building Actions
+                Testing Actions
+                Deployment Actions
+                Delivery Actions
+        Build orchestrator ==> JENKINS
 
 
 
