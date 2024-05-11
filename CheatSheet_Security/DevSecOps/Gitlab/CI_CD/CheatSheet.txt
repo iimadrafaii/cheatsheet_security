@@ -33,6 +33,15 @@ Insufficient Credential Hygiene :
                 Use built-in vendor options or third-party tools to prevent secrets from being printed 
                 to console outputs during builds and ensure existing outputs do not contain secrets.
                 Verify that secrets are removed from artifacts, such as container image layers and binaries.
+        Environment Variables and Best Practices :
+                Avoid hardcoding sensitive information in code; use environment variables instead.
+                Regularly review and rotate credentials stored in environment variables.
+                Limit access to environment variables to authorized personnel only.
+                Environment variables should be set according to the principle of least privilege.
+                Implement monitoring and auditing mechanisms to track changes to environment variables.
+                If implementing a secrets manager solution (explained in the next task), review its 
+                encryption mechanisms and if it's a good fit for your development environments.
+
 
 
 
