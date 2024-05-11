@@ -14,4 +14,9 @@ PPE : Poisoned pipeline execution ( an attacker has direct write access to a rep
 
 
 Remediate attacks on CI/CD : 
-    Preventing unauthorised repository changes ( change the "Allowed to push" to no one )
+        Preventing unauthorised repository changes ( change the "Allowed to push" to no one )
+
+Old DVCS :
+        BitKeeper
+
+
