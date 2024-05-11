@@ -19,4 +19,32 @@ Remediate attacks on CI/CD :
 Old DVCS :
         BitKeeper
 
+Insufficient Credential Hygiene :
+        Recommendations:
+                Ensure that credentials follow the principle of least privilege from code to deployment.
+                Avoid sharing the same credentials across multiple contexts to maintain 
+                accountability and simplify privilege management.
+                Use temporary credentials whenever possible, and establish procedures to 
+                rotate static credentials and detect stale credentials periodically.
+                Ensure credentials are only used under predefined conditions, such as 
+                limiting usage to a specific IP address or identity.
+                Detect secrets pushed to and stored in code repositories using Integrated 
+                Development Environments (IDE) plugins, automatic scanning, and periodic repository commit scans.
+                Use built-in vendor options or third-party tools to prevent secrets from being printed 
+                to console outputs during builds and ensure existing outputs do not contain secrets.
+                Verify that secrets are removed from artifacts, such as container image layers and binaries.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------
