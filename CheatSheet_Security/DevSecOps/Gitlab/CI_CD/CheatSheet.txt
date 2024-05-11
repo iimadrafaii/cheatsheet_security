@@ -4,6 +4,7 @@ CI : Development, Build, Testing
 CD : Deploy
 
 VCS : Version control system.
+DVCS : Distributed Version Control System
 
 SDLC : Software development lifecycles.
 
