@@ -1,0 +1,11 @@
+Clone a repo :
+        git clone <repository_url>
+
+Specify a branch to clone :
+        git clone -branch name_of_branch <repository_url>
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
