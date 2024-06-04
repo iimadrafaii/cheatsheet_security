@@ -1,8 +1,27 @@
+VCS = Version Control Systems
+
+All data are stored in .git
+
+Staging is the “pre-commit” state in git
+
+Git data storage :
+        When a file hash is 345e6aef713208c8d50cdea23b85e6ad831f0449
+        Git stores every version of a file as a blob
+        The two chars from the front (34) are used as a directory
+        ==> stored at .git/objects/34/5e6aef713208c8d50cdea23b85e6ad831f0449
+        To see the content of a git blob :
+                git cat-file blob 345e6aef713208c8d50cdea23b85e6ad831f0449
+        The blob, tree, and commits are how Git stores the complete history of your repository. 
+        It does all the references by the object hash: there is no way of manipulating the history 
+        or files tracked in the repository without breaking the relations.
+
 Clone a repo :
         git clone <repository_url>
 
 Specify a branch to clone :
         git clone -branch name_of_branch <repository_url>
+
+Git branches are lightweight, making branching operations fast and switching between branches quickly.
 
 
 
