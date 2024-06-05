@@ -1,0 +1,13 @@
+Defences :
+        It is difficult to defend against the attacks staged against external dependencies since there 
+        are so many and new vulnerabilities are found daily. However, there are certain things that 
+        we can do to limit the risk:
+        
+        Make sure to update and patch dependencies on a regular basis. This would include emergency 
+        patching of dependencies if a sufficiently serious vulnerability was discovered.
+        
+        Dependencies can sometimes be copied and hosted internally. This will reduce the attack surface.
+        
+        Sub-resource Integrity can be used to prevent tampered JS libraries from loading. In the HTML 
+        include, the hash of the JS library can be added. Modern web browsers will verify the hash of 
+        the JS library, and if it does not match, the library will not be loaded.
