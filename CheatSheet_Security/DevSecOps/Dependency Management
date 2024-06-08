@@ -1,0 +1,20 @@
+# Dependency Confusion : 
+
+So how is this actually happening? Let's take a dive into the vulnerable line in the DockerFile:
+
+RUN pip3 install datadbconnect --no-cache-dir --trusted-host internal.pypi-server.com --extra-index-url "http://internal.pypi-server:8081/simple/"
+
+Knowing that this is an internal package, the developer team added an additional Pypi repo for Pip through the --extra-index-url argument. However, this does not force Pip to download the package from that location. Rather, it is just another location where it can look for the package. Pip will therefore download the package from internal.pypi-server.com (legitimate package) and external.pypi-server.loc (our malicious package) and compare the two versions. Since our version is higher, it will install our package instead! This is where the name Dependency Confusion comes from!
+
+
+
+# Defences :
+
+Protecting internal dependencies is a massive security endeavour. Since we have to create, maintain, and host these dependencies ourselves, the security project is much larger than that of external dependencies. The following defence strategies should be considered for all internal dependencies:
+
+Internal dependencies should be actively maintained. This will ensure that vulnerabilities in these dependencies do not affect multiple applications and services.
+The hosting infrastructure of internal dependencies should be secured. The following Microsoft whitepaper provides the following three key focus areas:
+Reference one private feed, not multiple. This contributes to protecting against dependency confusion attacks. With our python example, we would then use --index-url argument instead of --extra-index-url to indicate that the package must be collected from the specified index.
+Protect your packages using controlled scopes. By controlling the scopes of dependencies, it will ensure that dependencies are locked to the applications that require them.
+Utilise client-side verification features. Controls such as sub-resource integrity or version locking will ensure that applications and services will detect when malicious code is introduced into a dependency and refuse to execute it.
+As an additional defence measure against dependency confusion attacks, the names of internal dependencies can be registered on external package managers without the source code to claim the name. This will prevent an attacker from registering a similarly named package.
