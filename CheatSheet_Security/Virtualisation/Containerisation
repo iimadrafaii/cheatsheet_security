@@ -10,3 +10,11 @@ Processes and containers :
             Every process running on Linux will be assigned two things:
                         A namespace
                         A process identifier (PID)
+
+Put simply, the process with an ID of 0 is the process that is started when the system boots. 
+Process numbers increment and must be started by another process, so naturally, the next process 
+ID will be #1. This process is the systems init , for example, the latest versions of Ubuntu use 
+systemd. Any other process that runs will be controlled by systemd (process #1).
+
+
+
