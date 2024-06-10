@@ -4,3 +4,9 @@ Namespace : The kernel feature that allows for processes to use resources of the
 In a normal configuration containers can't interact with each other
 (unless they share the same namespace)
 
+Processes and containers :
+            Namespaces essentially segregate system resources such as processes, files and memory away from other namespaces.
+
+            Every process running on Linux will be assigned two things:
+                        A namespace
+                        A process identifier (PID)
