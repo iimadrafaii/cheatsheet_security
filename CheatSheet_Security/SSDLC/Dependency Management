@@ -11,3 +11,18 @@ Defences :
         Sub-resource Integrity can be used to prevent tampered JS libraries from loading. In the HTML 
         include, the hash of the JS library can be added. Modern web browsers will verify the hash of 
         the JS library, and if it does not match, the library will not be loaded.
+
+
+We should be considering the following :
+        Be aware of the dependencies you use in your applications and systems. Also, be aware that these 
+        dependencies may have dependencies, which will grow the list of dependencies you will need to keep tabs on.
+
+        Make sure to always use the latest versions of dependencies, both internal and external dependencies. 
+        More often than not, these updates to dependencies are not to introduce new features but to fix existing 
+        issues and bugs.
+
+        It is not just the dependencies themselves that should be considered for security, but also how we 
+        configure and use our dependency managers, especially for internal dependencies.
+
+        Dependencies and dependency management systems should be included in the attack surface of the application 
+        or system we are developing.
