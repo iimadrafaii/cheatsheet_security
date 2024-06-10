@@ -1,0 +1,6 @@
+Namespace : The kernel feature that allows for processes to use resources of the Operating 
+            System without being able to interact with other processes
+
+In a normal configuration containers can't interact with each other
+(unless they share the same namespace)
+
