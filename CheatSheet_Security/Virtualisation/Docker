@@ -1,0 +1,25 @@
+Pull an image :
+        docker pull nginx
+
+Images tags :
+        image:tag
+
+"Docker Image" Commands :
+        docker image ls : List all images stored on the local system
+        docker image rm NAME[:TAG]  : Remove an image from the system
+
+Docker run :
+        docker run [OPTIONS] IMAGE_NAME [COMMAND] [ARGUMENTS...]
+        (docker run -it helloworld /bin/bash)
+        OPTIONS :
+                -d ( detached ==> run in the bg )
+                -it ( i==>interactive, t==>shell )
+                -v OSDIR:CONTAINERDIR ( Volumes )
+                -p OSp:Cp ( expose ports )
+                --rm ( remove the container once it finishes running whatever it has been instructed to do )
+                --name ( name the container otherwise randomly two words )
+
+Listing Running Containers :
+        docker ps
+        docker ps -a ( list even stopped containers )
+
