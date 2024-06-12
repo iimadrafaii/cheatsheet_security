@@ -23,3 +23,32 @@ Listing Running Containers :
         docker ps
         docker ps -a ( list even stopped containers )
 
+
+
+Docker File :
+        FROM : select base image
+        RUN : This instruction will execute commands during the build in the container within a new layer
+        COPY : copies to the Current Working Directory
+        WORKDIR : set CWD
+        CMD : command is run when the container starts
+        EXPOSE : This instruction is used to tell the person who runs the container 
+                 what port they should publish when running the container.
+
+
+
+Build docker container :
+        docker build -t NAME LOCATION_OF_DOCKER_FILE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
