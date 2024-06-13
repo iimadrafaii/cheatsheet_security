@@ -1,1 +1,6 @@
-
+Architecture :
+        Pod : a group of one or more containers
+        Nodes : 
+                Two types : control plane (master node) VS worker nodes
+        Cluster : a set of nodes
+        
