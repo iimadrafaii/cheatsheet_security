@@ -41,7 +41,9 @@ Build docker container :
 
 
 
-
+Docker Socket : 
+        Docker uses Client/Server Model
+        Sockets allow for Interprocess Communication (IPC)
 
 
 
