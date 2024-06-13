@@ -2,5 +2,33 @@ Architecture :
         Pod : a group of one or more containers
         Nodes : 
                 Two types : control plane (master node) VS worker nodes
+                Pods run on nodes
         Cluster : a set of nodes
-        
+
+
+The Kubernetes Control Plane :
+        Kube-apiserver : The API server is the front end of the control plane
+        Etcd : a key/value store containing cluster data / the current state of the cluster
+        Kube-scheduler : catch any newly created pods that have yet to be assigned to a 
+                         node and make sure it gets assigned to one
+        Kube-controller-manager : running the controller processes like : 
+                        node controller process : responsible for noticing when nodes go down
+        Cloud-controller-manager : enables communication between a Kubernetes cluster and a cloud provider API
+
+
+Kubernetes Worker Node : 
+        Kubelet : 
+                runs on every node in the cluster
+                responsible for ensuring containers are running and healthy in a pod
+        Kube-proxy : 
+                Responsible for network communication within the cluster
+                Traffic won't hit a pod directly but instead hit something 
+                called a Service (which would be associated with a group of pods), 
+                and then gets directed to one of the associated pods
+        Container runtime : 
+                Docker, rkt or runC
+
+
+
+
+
