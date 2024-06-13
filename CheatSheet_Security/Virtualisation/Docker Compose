@@ -1,0 +1,33 @@
+Commands : 
+        up : This command will (re)create/build and start the containers specified 
+                in the compose file
+        start : This command will start (but requires the containers already being built) 
+                the containers specified in the compose file
+        down : This command will stop and delete the containers specified in the compose file
+        stop : This command will stop (not delete) the containers specified in the compose file
+        build : This command will build (but will not start) the containers specified in the compose file
+
+
+Docker-compose.yml :
+        version
+        services
+        name (replace value)
+        build
+        ports
+        volumes
+        environment
+        image
+        networks
+
+
+
+
+
+
+
+
+
+
+
+
+
