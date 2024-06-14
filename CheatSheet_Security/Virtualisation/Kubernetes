@@ -34,6 +34,19 @@ Concepts :
         ReplicaSet
         Deployments : Used to define a desired state
         StatefulSets 
+        Services : ( like an access point to conserve the ip address of a pod for example )
+                There are different types of services you can define: ClusterIP, LoadBalancer, 
+                NodePort and ExternalName
+        
+
+
+
+
+
+
+
+
+
 
 
 
