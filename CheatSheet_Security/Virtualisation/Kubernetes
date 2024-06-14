@@ -13,6 +13,7 @@ The Kubernetes Control Plane :
                          node and make sure it gets assigned to one
         Kube-controller-manager : running the controller processes like : 
                         node controller process : responsible for noticing when nodes go down
+                        deployment controller process
         Cloud-controller-manager : enables communication between a Kubernetes cluster and a cloud provider API
 
 
@@ -28,6 +29,11 @@ Kubernetes Worker Node :
         Container runtime : 
                 Docker, rkt or runC
 
+Concepts :
+        Namespaces
+        ReplicaSet
+        Deployments : Used to define a desired state
+        StatefulSets 
 
 
 
