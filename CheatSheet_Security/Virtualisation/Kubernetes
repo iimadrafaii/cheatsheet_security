@@ -37,10 +37,14 @@ Concepts :
         Services : ( like an access point to conserve the ip address of a pod for example )
                 There are different types of services you can define: ClusterIP, LoadBalancer, 
                 NodePort and ExternalName
+        Ingress : acts as a single access point to the cluster
         
 
-
-
+Configuration :
+        apiVersion
+        kind
+        metadata
+        spec
 
 
 
