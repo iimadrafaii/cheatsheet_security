@@ -47,7 +47,11 @@ Configuration :
         spec
 
 
-
+Kubectl :
+        kubectl apply -f
+        kubectl get -n NAMESPACE
+        kubectl describe 
+        kubectl logs
 
 
 
