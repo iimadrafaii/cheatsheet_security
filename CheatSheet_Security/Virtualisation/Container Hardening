@@ -18,7 +18,68 @@ Implementing Control Groups :
 
         View information about a container : ( 0 means no limits !)
                 docker inspect containername 
+
+
+Preventing "Over-Privileged" Containers :
+        Capabilities :
+                CAP_NET_BIND_SERVICE : 
+                        This capability allows services to bind to ports, specifically 
+                        those under 1024, which usually requires root privileges.
+                CAP_SYS_ADMIN :
+                        This capability provides a variety of administrative privileges, 
+                        including being able to mount/unmount file systems, changing network 
+                        settings, performing system reboots, shutdowns, and more.
+                CAP_SYS_RESOURCE : 
+                        This capability allows a process to modify the maximum limit of resources 
+                        available. For example, a process can use more memory or bandwidth.
+
+        Determine what capabilities are assigned to a process :
+                capsh --print
+
+
+Seccomp & AppArmor :
+        Seccomp : A linux security guard ( allows to do or not to do ) 
+                Apply a Seccomp profile :
+                        docker run --rm -it --security-opt seccomp=.../profile.json mycontainer
+                It will be included in the application.
         
+        AppArmor :
+                It is included in the OS.
+                Determines the actions a process can execute based on a set of rules at the operating system level.
+
+                Checking if AppArmor is installed or not :
+                        sudo aa-status
+
+                Importing our AppArmor profile into AppArmor :
+                        sudo apparmor_parser -r -W /.../profile.json
+
+                Applying our AppArmor profile when running a container :
+                        docker run --rm -it --security-opt apparmor=/.../profile.json mycontainer
+
+        The difference betweeb Seccomp and AppArmor :
+                AppArmor determines what resources an application can access (i.e., CPU, RAM, Network 
+                interface, filesystem, etc) and what actions it can take on those resources.
+
+                Seccomp is within the program itself, which restricts what system calls the process 
+                can make (i.e. what parts of the CPU and operating system functions).
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
