@@ -1,6 +1,14 @@
-
 When we are already root :
-        
+        Vulnerability 1: Privileged Containers (Capabilities) :
+                Docker containers can run in two modes :
+                        User (Normal) mode
+                        Privileged mode :
+                                Privileged containers bypass the Docker Engine and directly 
+                                communicate with the operating system.
+                Listing capabilities of a privileged Docker Container :
+                        capsh --print
+                https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/#:~:text=The%20SYS_ADMIN%20capability%20allows%20a,security%20risks%20of%20doing%20so.
+
 
 
 
