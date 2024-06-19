@@ -1,5 +1,6 @@
 When we are already root :
-        Vulnerability 1: Privileged Containers (Capabilities) :
+        Vulnerability 1: Privileged Containers (Capabilities) : 
+                We can use mount when we have "sys_admin" cap
                 Docker containers can run in two modes :
                         User (Normal) mode
                         Privileged mode :
@@ -9,11 +10,34 @@ When we are already root :
                         capsh --print
                 https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/#:~:text=The%20SYS_ADMIN%20capability%20allows%20a,security%20risks%20of%20doing%20so.
 
+        
+        Vulnerability 2: Escaping via Exposed Docker Daemon :
+                Unix Sockets :
+                        Sockets are used to move data between two places
+                        Unix sockets use the filesystem to transfer data rather than networking interfaces. 
+                        This is known as Inter-process Communication (IPC) 
+                Finding the Docker Socket in a Container﻿ :
+                        In Ubuntu 18.04 :
+                                docker.sock is located in /var/run
+                Exploit : 
+                        docker run -v /:/mnt --rm -it alpine chroot /mnt sh
+                ( alpine is a lighweight image ... )
 
 
 
+        Vulnerability 3: Remote Code Execution via Exposed Docker Daemon :
+                Docker Engine use port number 2375 by default
 
 
+        Vulnerability 4: Abusing Namespaces :
+                Every process running on Linux will be assigned two things :
+                        A namespace
+                        A Process Identifier (PID)
+                When we are in a docker container that have access to the host processes, 
+                we can abuse namespaces : 
+                        nsenter --target 1 --mount --uts --ipc --net /bin/bash
+                        ( 1 is the pid of the "/sbin/init" process )
+                        ( although it's a symbolic link to "lib/systemd/systemd" for backwards compatibility )
 
 
 
