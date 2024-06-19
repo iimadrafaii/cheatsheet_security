@@ -1,0 +1,36 @@
+Protecting the Docker Daemon :
+        Interact with remote Daemon using SSH and creating contexts in docker :
+                docker context create --docker host=ssh://myuser@remotehost --description="Development Environment" development-environment-host 
+        ==> Switch to the newly created context : 
+                docker context use development-environment-host
+        Exit current docker context : 
+                docker context use default
+
+
+Implementing Control Groups :
+        Control Groups (also known as cgroups) are a feature of the Linux kernel that facilitates 
+        restricting and prioritising the number of system resources a process can utilise.
+
+        ( this helps prevent faulty or malicious containers from exhausting a system )
+
+        Setting CPUs limits : in core counts 
+                docker run -it --cpus="1" mycontainer
+
+        View information about a container : ( 0 means no limits !)
+                docker inspect containername 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
