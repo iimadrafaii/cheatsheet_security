@@ -64,9 +64,27 @@ Seccomp & AppArmor :
                 can make (i.e. what parts of the CPU and operating system functions).
 
         
+Reviewing Docker Images :
+        Review source code when pulling from docker hub 
+        
+        Tools such as Dive allow you to reverse engineer Docker images by inspecting what is executed 
+        and changed at each layer of the image during the build process.
 
 
-
+Compliance & Benchmarking :
+        Compliance frameworks :
+                NIST SP 800-190
+                ISO 27001
+        
+        Benchmarking :
+                A process used to see how well an organisation is adhering to best practices. 
+                Benchmarking allows an organisation to see where they are following best practices 
+                well and where further improvements are needed :
+                        CIS Docker Benchmark
+                        OpenSCAP
+                        Docker Scout
+                        Anchore
+                        Grype
 
 
 
