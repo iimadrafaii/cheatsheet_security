@@ -1,0 +1,27 @@
+IaC = Infrastructure as Code
+
+An IaC approach can make it possible to have a reliable infrastructure that is scalable, 
+versionable, and repeatable.
+
+
+It supports key concepts :
+        Continuous Integration :
+                Infrastructure development to be a collaborative process with versioning 
+                in place.
+        Continuous Deployment :
+                Allowing for the automation of infrastructure deployment across multiple 
+                environments consistently.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
