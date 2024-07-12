@@ -19,7 +19,20 @@ Declarative vs. Imperative :
         A state file is kept to ensure your infrastructure’s current state matches the desired state.
     Imperative :
         This approach involves defining specific commands to be run to achieve the desired state
-        
+
+Agent-based vs. Agentless :
+    Agent-based :
+        Some agent-based IaC tools: Puppet, Chef, and Saltstack.
+    Agentless :
+        Agentless IaC tools: Terraform, AWS CloudFormation, Pulumi and Ansible.
+
+Immutable vs. Mutable Infrastructure :
+    Immutable :
+        Updates are made on a separate new infra and they deployed.
+        ( update an application from version 1 to version 2 )
+    Mutable :
+        Updates are made in place 
+        ( a critical database system that requires regular maintenance updates and patching )
     
 
 
