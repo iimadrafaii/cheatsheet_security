@@ -5,15 +5,22 @@ versionable, and repeatable.
 
 
 It supports key concepts :
-        Continuous Integration :
-                Infrastructure development to be a collaborative process with versioning 
-                in place.
-        Continuous Deployment :
-                Allowing for the automation of infrastructure deployment across multiple 
-                environments consistently.
+    Continuous Integration :
+        Infrastructure development to be a collaborative process with versioning 
+        in place.
+    Continuous Deployment :
+        Allowing for the automation of infrastructure deployment across multiple 
+        environments consistently.
 
-
-
+Declarative vs. Imperative :
+    Declarative :
+        It focuses on the what rather than the how.
+        This involves declaring an explicit desired state for your infrastructure.
+        A state file is kept to ensure your infrastructure’s current state matches the desired state.
+    Imperative :
+        This approach involves defining specific commands to be run to achieve the desired state
+        
+    
 
 
 
