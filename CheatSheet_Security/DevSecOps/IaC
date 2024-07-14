@@ -34,6 +34,12 @@ Immutable vs. Mutable Infrastructure :
         Updates are made in place 
         ( a critical database system that requires regular maintenance updates and patching )
     
+Provisioning vs. Configuration Management :
+    Provisioning :
+        Terraform, AWS CloudFormation, Google Cloud Deployment Manager, Pulumi
+    Configuration management :
+        Ansible, Chef, Puppet, Saltstack
+
 
 
 
