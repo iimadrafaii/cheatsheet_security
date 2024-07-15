@@ -40,7 +40,21 @@ Provisioning vs. Configuration Management :
     Configuration management :
         Ansible, Chef, Puppet, Saltstack
 
+The Continual (Best Practice) Phases :
+    (ensure best practices throughout infrastructure development and management)
+    Version Control
+    Collaboration
+    Monitoring/Maintenance
+    Rollback
+    Review + Change
 
+The Repeatable (Infra Creation + Config) Phases :
+    (provide guidance during the development or configuration of an infrastructure)
+    Design
+    Define
+    Test
+    Provision 
+    Configure
 
 
 
