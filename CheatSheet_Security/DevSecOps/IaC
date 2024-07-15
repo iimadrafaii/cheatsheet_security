@@ -57,9 +57,17 @@ The Repeatable (Infra Creation + Config) Phases :
     Configure
 
 
+Virtualisation Levels :
+    Containerisation
+    Hypervisor
 
-
-
+Use of Virtualisation in IaC :
+    Scalability
+    Resource Isolation
+    Testing / Snapshots / Rollbacks
+    Templates
+    Multi-tenancy
+    Portability
 
 
 
