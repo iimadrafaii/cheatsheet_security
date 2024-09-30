@@ -1,5 +1,19 @@
 IaC = Infrastructure as Code
 
+
+On-Prem IaC :
+    On-prem IaC has the following benefits:
+        Allows full control of the IaC pipeline
+        The IaC pipeline can be fully customised for your exact needs
+        Data protection and regulation is easier to perform as the IaC pipeline does not host resources on third-party systems
+        While the initial investment cost of the infrastructure is high, there are no monthly fees for hosting the IaC pipeline
+        It is often easier to do small deployments
+    On-prem IaC has the following drawbacks:
+        As you are hosting your own IaC pipeline, you are fully responsible for its security and configuration
+        Scalability of deployments is not as flexible as cloud-based IaC, which can lead to either not having sufficient resources for the deployment or an over-investment in resources
+        The initial investment for on-prem IaC is significantly higher than cloud-based IaC
+
+
 An IaC approach can make it possible to have a reliable infrastructure that is scalable, 
 versionable, and repeatable.
 
