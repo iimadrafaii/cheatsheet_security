@@ -1,0 +1,3 @@
+Provision all hosts with Vagrant :
+        Vagrant up
+
