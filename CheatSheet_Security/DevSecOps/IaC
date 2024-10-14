@@ -1,5 +1,12 @@
 IaC = Infrastructure as Code
 
+Security Concerns in On-Prem IaC :
+    Dependencies ( for ex a vulnerability in the OS version of the image )
+    Defaults 
+    Insufficient Hardening
+    Remote Code Execution as a Feature ==> secret management and following the principle of least privilege
+
+    
 
 On-Prem IaC :
     On-prem IaC has the following benefits:
