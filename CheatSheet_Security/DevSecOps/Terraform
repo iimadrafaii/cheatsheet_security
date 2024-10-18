@@ -1,0 +1,39 @@
+Terraform Core takes its input from two sources :
+        Terraform Config files
+        State : terraform.tfstate
+
+If there is a difference between what the infrastructure currently looks like and what you want it to look like, 
+this will require a change. This change will be actioned by a Provider.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
